@@ -19,7 +19,8 @@ const indexPath = path.join(root, 'index.json')
 const lastCommitDate = (folder) => {
   try {
     const iso = execSync(`git log -1 --format=%cI -- ${JSON.stringify(`${ADDONS_DIR}/${folder}`)}`, { cwd: root, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim()
-    return iso || null
+    // Normalise: git prints "+00:00" locally and "Z" on the CI runner for the same instant.
+    return iso && !Number.isNaN(Date.parse(iso)) ? new Date(iso).toISOString() : null
   } catch {
     return null
   }

@@ -2,7 +2,7 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-08T18:46:18.854Z",
+  "generatedAt": "2026-09-08T18:47:23.087Z",
   "count": 4,
   "addons": [
     {
@@ -46,7 +46,7 @@
           "sha256": "d100adf5c349d081bda3dbece6109f548474547dab5463cf6897332bb0149f72"
         }
       },
-      "updatedAt": "2026-09-08T18:39:41Z"
+      "updatedAt": "2026-09-08T18:39:41.000Z"
     },
     {
       "id": "hello-world",
@@ -84,7 +84,7 @@
           "sha256": "71d7816ce2aa26c2889d766ac88181f6f7558f4d15dd5a44985e075dd956b74f"
         }
       },
-      "updatedAt": "2026-09-08T18:39:41Z"
+      "updatedAt": "2026-09-08T18:39:41.000Z"
     },
     {
       "id": "note-statistics",
@@ -127,7 +127,7 @@
           "sha256": "d4193dc959188daa5e1ed1f3c8ecdf2dafcfac20bb224a699f55e7593d94ef75"
         }
       },
-      "updatedAt": "2026-09-08T18:39:41Z"
+      "updatedAt": "2026-09-08T18:39:41.000Z"
     },
     {
       "id": "task-collector",
@@ -169,7 +169,7 @@
           "sha256": "a764bbfa13e1238db1183e5af1fac1581cd45362649dcfa8b1757b831a132329"
         }
       },
-      "updatedAt": "2026-09-08T18:39:41Z"
+      "updatedAt": "2026-09-08T18:39:41.000Z"
     }
   ]
 }
