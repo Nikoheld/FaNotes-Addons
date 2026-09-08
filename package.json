@@ -1,0 +1,16 @@
+{
+  "name": "fanotes-addons",
+  "private": true,
+  "description": "Add-on-Verzeichnis für FaNotes: ein Ordner pro Add-on, index.json wird von der CI gebaut.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "index": "node scripts/build-index.mjs",
+    "index:check": "node scripts/build-index.mjs --check",
+    "new": "node scripts/new-addon.mjs"
+  }
+}

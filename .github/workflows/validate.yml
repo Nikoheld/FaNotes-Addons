@@ -1,0 +1,48 @@
+name: Validate add-ons
+
+# Every pull request is checked before it can be merged: manifest schema,
+# folder name = id, size limits, ES-module syntax of main.js, forbidden
+# patterns, version bump when code changed. See docs/PUBLISHING.md.
+
+on:
+  pull_request:
+    paths:
+      - 'addons/**'
+      - 'scripts/**'
+      - 'index.json'
+  push:
+    branches: [main]
+    paths:
+      - 'addons/**'
+      - 'scripts/**'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate every add-on
+        run: node scripts/validate.mjs
+      - name: Only allowed files changed outside addons/
+        if: github.event_name == 'pull_request'
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          changed="$(git diff --name-only "$BASE" "$HEAD")"
+          echo "$changed"
+          if echo "$changed" | grep -qE '^index\.json$'; then
+            echo "::warning::index.json wird automatisch gebaut – Änderungen daran werden nach dem Merge überschrieben."
+          fi
+          if echo "$changed" | grep -vqE '^(addons/|docs/|README|CONTRIBUTING|SECURITY|LICENSE|scripts/|sdk/|\.github/|index\.json$)'; then
+            echo "::warning::Änderungen außerhalb von addons/ werden von den Maintainern besonders geprüft."
+          fi

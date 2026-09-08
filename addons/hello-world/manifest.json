@@ -1,0 +1,12 @@
+{
+  "id": "hello-world",
+  "name": "Hello World",
+  "version": "1.0.0",
+  "description": "Das kleinste vollständige Add-on: ein Befehl in der Palette, ein Toast und ein Panel mit Buttons. Kopiere es als Startpunkt.",
+  "author": { "name": "FaNotes", "url": "https://github.com/Nikoheld/FaNotes" },
+  "license": "MIT",
+  "api": 1,
+  "permissions": ["commands", "ui", "notes:read"],
+  "categories": ["developer"],
+  "keywords": ["beispiel", "template", "starter"]
+}

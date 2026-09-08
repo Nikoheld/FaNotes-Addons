@@ -1,0 +1,47 @@
+name: Auto-index
+
+# After every merge to main, rebuild index.json and commit it. FaNotes reads
+# https://raw.githubusercontent.com/<owner>/<repo>/main/index.json at runtime,
+# so a merged add-on is visible to every user within minutes – no FaNotes
+# release involved. (Until this has run once, FaNotes lists addons/ through
+# the GitHub contents API as a fallback.)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'addons/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-index
+  cancel-in-progress: false
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build index.json
+        run: node scripts/build-index.mjs
+      - name: Commit index.json
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- index.json; then
+            echo "index.json ist bereits aktuell."
+            exit 0
+          fi
+          git config user.name "fanotes-addons[bot]"
+          git config user.email "fanotes-addons-bot@users.noreply.github.com"
+          git add index.json
+          git commit -m "chore: rebuild index.json [skip ci]"
+          git push

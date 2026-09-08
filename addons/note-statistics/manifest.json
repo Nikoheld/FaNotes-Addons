@@ -1,0 +1,12 @@
+{
+  "id": "note-statistics",
+  "name": "Notiz-Statistik",
+  "version": "1.0.0",
+  "description": "Zeigt die stillen Seitenstatistiken der offenen Notiz: Lesezeit, Wörter, Zeichen, Handschrift-Dauer, Öffnungen und mehr – live im Dock.",
+  "author": { "name": "FaNotes", "url": "https://github.com/Nikoheld/FaNotes" },
+  "license": "MIT",
+  "api": 1,
+  "permissions": ["commands", "ui", "notes:read", "stats:read", "ink:read", "clipboard"],
+  "categories": ["statistics", "writing"],
+  "keywords": ["statistik", "wörter", "lesezeit", "famd"]
+}

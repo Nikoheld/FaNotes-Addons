@@ -1,0 +1,12 @@
+{
+  "id": "task-collector",
+  "name": "Aufgaben-Sammler",
+  "version": "1.0.0",
+  "description": "Sammelt alle offenen Aufgaben (- [ ]) aus dem ganzen Vault in einem Panel. Ein Klick springt zur Notiz, ein zweiter hakt die Aufgabe ab.",
+  "author": { "name": "FaNotes", "url": "https://github.com/Nikoheld/FaNotes" },
+  "license": "MIT",
+  "api": 1,
+  "permissions": ["commands", "ui", "notes:read", "notes:write", "storage"],
+  "categories": ["productivity", "school"],
+  "keywords": ["todo", "aufgaben", "checkbox", "hausaufgaben"]
+}

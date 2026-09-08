@@ -1,0 +1,12 @@
+{
+  "id": "focus-timer",
+  "name": "Fokus-Timer",
+  "version": "1.0.0",
+  "description": "Pomodoro-Timer in der Statusleiste: 25 Minuten fokussiert schreiben, 5 Minuten Pause. Abgeschlossene Runden landen als Zeile in deiner Tagesnotiz.",
+  "author": { "name": "FaNotes", "url": "https://github.com/Nikoheld/FaNotes" },
+  "license": "MIT",
+  "api": 1,
+  "permissions": ["commands", "ui", "notes:read", "notes:write", "storage", "editor"],
+  "categories": ["productivity", "school"],
+  "keywords": ["pomodoro", "timer", "fokus", "pause"]
+}
