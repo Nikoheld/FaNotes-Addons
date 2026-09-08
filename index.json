@@ -2,7 +2,7 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-08T18:47:23.087Z",
+  "generatedAt": "2026-09-08T19:11:30.412Z",
   "count": 4,
   "addons": [
     {
@@ -77,14 +77,14 @@
       "files": {
         "main.js": {
           "size": 2123,
-          "sha256": "8eb89761a872acd4068149dea7bb891387aa8574a94b62dd7e2f0eb753eca6ba"
+          "sha256": "6b2e22ae5e94edc2028e19c1d40fd6e2f58147713d4385cba082b1b2691b0549"
         },
         "README.md": {
           "size": 966,
           "sha256": "71d7816ce2aa26c2889d766ac88181f6f7558f4d15dd5a44985e075dd956b74f"
         }
       },
-      "updatedAt": "2026-09-08T18:39:41.000Z"
+      "updatedAt": "2026-09-08T19:11:16.000Z"
     },
     {
       "id": "note-statistics",
