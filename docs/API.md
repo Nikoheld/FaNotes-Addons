@@ -331,7 +331,7 @@ Eintrag in der Statusleiste unten. `text` max. 60 Zeichen; **leerer Text entfern
 
 ### `commands.register({ id, title, detail?, keywords?, shortcut?, run })` → `Disposable` — Berechtigung `commands`
 
-Fügt einen Eintrag in die Befehlspalette (`Ctrl K`) ein, gruppiert unter „Add-on: *Name*“. Max. 40 Befehle pro Add-on.
+Fügt einen Eintrag in die Befehlspalette (`Ctrl P`) ein, gruppiert unter „Add-on: *Name*“. Max. 40 Befehle pro Add-on.
 
 - `id`: eindeutig innerhalb deines Add-ons; Buchstaben, Ziffern, `.`, `:`, `-`, `_`.
 - `title`, `detail`: Anzeige in der Palette. `keywords`: zusätzliche Suchwörter.

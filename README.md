@@ -35,7 +35,7 @@ fanotes.commands.register({
 })
 ```
 
-Testen: FaNotes → Befehlspalette (`Ctrl K`) → **Add-on-Store** → Reiter **Entwickeln** → **Lokal laden** → `manifest.json` und `main.js` auswählen. Das Add-on startet sofort; Änderungen lädst du einfach erneut.
+Testen: FaNotes → Befehlspalette (`Ctrl P`) → **Add-on-Store** → Reiter **Entwickeln** → **Lokal laden** → `manifest.json` und `main.js` auswählen. Das Add-on startet sofort; Änderungen lädst du einfach erneut.
 
 Veröffentlichen: `node scripts/validate.mjs mein-addon`, committen, Pull Request öffnen. Die CI prüft alles Formale; nach dem Merge ist das Add-on im Store.
 

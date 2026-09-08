@@ -44,7 +44,7 @@ Richtig – es gibt beides nicht. Netzwerk geht über `fanotes.net.fetch` (Berec
 `fanotes.storage` (Berechtigung `storage`): 1 MB JSON, bleibt bei Updates erhalten, wird beim Deinstallieren gelöscht. Eine Einstellungsseite baust du als Panel mit `input`/`select`/`checkbox` und speicherst in `onInput`.
 
 **Kann ich ein Tastenkürzel belegen?**
-Nein. `shortcut` in `commands.register` ist nur Anzeige. Nutzer erreichen Befehle über `Ctrl K`. Das ist Absicht: Add-ons sollen keine FaNotes-Kürzel überschreiben können.
+Nein. `shortcut` in `commands.register` ist nur Anzeige. Nutzer erreichen Befehle über `Ctrl P`. Das ist Absicht: Add-ons sollen keine FaNotes-Kürzel überschreiben können.
 
 **Kann ich eigene Dateien im Vault ablegen (z. B. JSON)?**
 Nein, nur `.md`-Notizen (`notes.create`/`notes.write`). Für Daten nutze `fanotes.storage`. Für nutzersichtbare Daten eine Notiz mit klarer Kennzeichnung (z. B. `Aufgaben (Sammler).md`).

@@ -114,7 +114,7 @@ Alle Blocktypen: [UI_BLOCKS.md](UI_BLOCKS.md). Ereignisse: [EVENTS.md](EVENTS.md
 
 ## 5. Lokal testen
 
-1. FaNotes öffnen → `Ctrl K` → **Add-on-Store** (oder Einstellungen → Add-ons).
+1. FaNotes öffnen → `Ctrl P` → **Add-on-Store** (oder Einstellungen → Add-ons).
 2. Reiter **Entwickeln** → **Lokal laden** → `manifest.json` und `main.js` (optional `README.md`) zusammen auswählen.
 3. Das Add-on startet sofort. Unter **Installiert** siehst du Status, Fehler und das Protokoll (`console.log` und `fanotes.log` landen dort).
 4. Nach jeder Änderung einfach wieder **Lokal laden** – die Dateien werden ersetzt und das Add-on neu gestartet.

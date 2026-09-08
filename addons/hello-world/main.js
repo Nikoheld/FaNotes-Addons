@@ -9,7 +9,7 @@
 
 let greetings = 0
 
-// A command shows up in the command palette (Ctrl+K) under "Add-on: Hello World".
+// A command shows up in the command palette (Ctrl+P) under "Add-on: Hello World".
 fanotes.commands.register({
   id: 'greet',
   title: 'Hallo sagen',
