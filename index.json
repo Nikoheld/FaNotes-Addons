@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "repository": "Nikoheld/FaNotes-Addons",
+  "branch": "main",
+  "generatedAt": "2026-09-08T18:39:42.082Z",
+  "count": 4,
+  "addons": [
+    {
+      "id": "focus-timer",
+      "name": "Fokus-Timer",
+      "version": "1.0.0",
+      "description": "Pomodoro-Timer in der Statusleiste: 25 Minuten fokussiert schreiben, 5 Minuten Pause. Abgeschlossene Runden landen als Zeile in deiner Tagesnotiz.",
+      "author": {
+        "name": "FaNotes",
+        "url": "https://github.com/Nikoheld/FaNotes"
+      },
+      "license": "MIT",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "notes:write",
+        "storage",
+        "editor"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "school"
+      ],
+      "keywords": [
+        "pomodoro",
+        "timer",
+        "fokus",
+        "pause"
+      ],
+      "path": "addons/focus-timer",
+      "files": {
+        "main.js": {
+          "size": 5972,
+          "sha256": "f7b07fab6da301e314bcdb7aa050744fde2d3db00941b9ebf1291b4cbed73fb0"
+        },
+        "README.md": {
+          "size": 823,
+          "sha256": "d100adf5c349d081bda3dbece6109f548474547dab5463cf6897332bb0149f72"
+        }
+      },
+      "updatedAt": "2026-09-08T18:39:41+00:00"
+    },
+    {
+      "id": "hello-world",
+      "name": "Hello World",
+      "version": "1.0.0",
+      "description": "Das kleinste vollständige Add-on: ein Befehl in der Palette, ein Toast und ein Panel mit Buttons. Kopiere es als Startpunkt.",
+      "author": {
+        "name": "FaNotes",
+        "url": "https://github.com/Nikoheld/FaNotes"
+      },
+      "license": "MIT",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "developer"
+      ],
+      "keywords": [
+        "beispiel",
+        "template",
+        "starter"
+      ],
+      "path": "addons/hello-world",
+      "files": {
+        "main.js": {
+          "size": 2123,
+          "sha256": "8eb89761a872acd4068149dea7bb891387aa8574a94b62dd7e2f0eb753eca6ba"
+        },
+        "README.md": {
+          "size": 966,
+          "sha256": "71d7816ce2aa26c2889d766ac88181f6f7558f4d15dd5a44985e075dd956b74f"
+        }
+      },
+      "updatedAt": "2026-09-08T18:39:41+00:00"
+    },
+    {
+      "id": "note-statistics",
+      "name": "Notiz-Statistik",
+      "version": "1.0.0",
+      "description": "Zeigt die stillen Seitenstatistiken der offenen Notiz: Lesezeit, Wörter, Zeichen, Handschrift-Dauer, Öffnungen und mehr – live im Dock.",
+      "author": {
+        "name": "FaNotes",
+        "url": "https://github.com/Nikoheld/FaNotes"
+      },
+      "license": "MIT",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "stats:read",
+        "ink:read",
+        "clipboard"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "statistics",
+        "writing"
+      ],
+      "keywords": [
+        "statistik",
+        "wörter",
+        "lesezeit",
+        "famd"
+      ],
+      "path": "addons/note-statistics",
+      "files": {
+        "main.js": {
+          "size": 5513,
+          "sha256": "dd637c67592406fe91394c06d3beaf582c741c3e19615970312425827311ee54"
+        },
+        "README.md": {
+          "size": 776,
+          "sha256": "d4193dc959188daa5e1ed1f3c8ecdf2dafcfac20bb224a699f55e7593d94ef75"
+        }
+      },
+      "updatedAt": "2026-09-08T18:39:41+00:00"
+    },
+    {
+      "id": "task-collector",
+      "name": "Aufgaben-Sammler",
+      "version": "1.0.0",
+      "description": "Sammelt alle offenen Aufgaben (- [ ]) aus dem ganzen Vault in einem Panel. Ein Klick springt zur Notiz, ein zweiter hakt die Aufgabe ab.",
+      "author": {
+        "name": "FaNotes",
+        "url": "https://github.com/Nikoheld/FaNotes"
+      },
+      "license": "MIT",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "notes:write",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "school"
+      ],
+      "keywords": [
+        "todo",
+        "aufgaben",
+        "checkbox",
+        "hausaufgaben"
+      ],
+      "path": "addons/task-collector",
+      "files": {
+        "main.js": {
+          "size": 5069,
+          "sha256": "0a426d4251fc34a40e7f1dcd8b1a9714b2486cc93fc1ef8a5672704f795915fa"
+        },
+        "README.md": {
+          "size": 1007,
+          "sha256": "a764bbfa13e1238db1183e5af1fac1581cd45362649dcfa8b1757b831a132329"
+        }
+      },
+      "updatedAt": "2026-09-08T18:39:41+00:00"
+    }
+  ]
+}
