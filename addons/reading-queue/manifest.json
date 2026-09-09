@@ -1,0 +1,40 @@
+{
+  "id": "reading-queue",
+  "name": "Lesewarteschlange / Reading Queue",
+  "version": "1.0.0",
+  "description": "Persönliche Lesewarteschlange: aktive Notiz, ungelesen/gelesen, optional Fälligkeit, nächste öffnen. Personal reading queue: save active note, unread/read, optional due, open next.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "school",
+    "writing"
+  ],
+  "keywords": [
+    "lesen",
+    "reading",
+    "warteschlange",
+    "queue",
+    "ungelesen",
+    "unread",
+    "fällig",
+    "due",
+    "notiz",
+    "note",
+    "schule",
+    "school"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
