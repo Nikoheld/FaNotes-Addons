@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T14:51:29.575Z",
-  "count": 60,
+  "generatedAt": "2026-09-09T14:54:07.654Z",
+  "count": 61,
   "addons": [
     {
       "id": "append-to-daily",
@@ -261,6 +261,58 @@
         }
       },
       "updatedAt": "2026-09-09T14:15:12.000Z"
+    },
+    {
+      "id": "conflict-finder",
+      "name": "Konflikt-Marker / Conflict Finder",
+      "version": "1.0.0",
+      "description": "Findet Git-Merge-Konfliktmarker in Markdown-Notizen. Finds Git merge conflict markers in Markdown notes.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "developer",
+        "productivity"
+      ],
+      "keywords": [
+        "conflict",
+        "konflikt",
+        "git",
+        "merge",
+        "markers",
+        "marker",
+        "hygiene",
+        "scannen",
+        "scan"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/conflict-finder",
+      "files": {
+        "main.js": {
+          "size": 20026,
+          "sha256": "27cfd119cce0fc80288110e54356be8683ecaddb0c041c80519b5ea29af2abe2"
+        },
+        "README.md": {
+          "size": 7007,
+          "sha256": "789c90a3abaa265e328127ec09a043693457ca9a2cf349bf72e069714d8fd1b0"
+        },
+        "icon.svg": {
+          "size": 377,
+          "sha256": "648ae33cd49ec65ff9380b423e00aa1521c5fee9d45927baa7c0d1a13516bc92"
+        }
+      },
+      "updatedAt": "2026-09-09T14:53:55.000Z"
     },
     {
       "id": "daily-note",
