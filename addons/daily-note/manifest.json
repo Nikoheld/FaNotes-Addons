@@ -1,0 +1,39 @@
+{
+  "id": "daily-note",
+  "name": "Tagesnotiz / Daily Note",
+  "version": "1.0.0",
+  "description": "Öffnet/erstellt die Tagesnotiz (YYYY-MM-DD.md) in einem Ordner (Standard: Daily). Opens/creates a daily note with today/yesterday commands and optional status bar.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "notes:write",
+    "storage",
+    "vault:write"
+  ],
+  "categories": [
+    "productivity",
+    "writing"
+  ],
+  "keywords": [
+    "tagesnotiz",
+    "daily",
+    "note",
+    "journal",
+    "tagebuch",
+    "heute",
+    "today",
+    "gestern",
+    "yesterday",
+    "diary"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
