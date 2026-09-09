@@ -1,0 +1,41 @@
+{
+  "id": "note-splitter",
+  "name": "Notiz teilen / Note Splitter",
+  "version": "1.0.0",
+  "description": "Teilt die offene Notiz an Überschriften in neue Notizen. Splits the open note at headings into new notes.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "notes:read",
+    "notes:write",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "productivity",
+    "school"
+  ],
+  "keywords": [
+    "split",
+    "teilen",
+    "heading",
+    "kapitel",
+    "chapter",
+    "h2",
+    "notiz",
+    "section",
+    "überschrift",
+    "cut",
+    "copy"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
