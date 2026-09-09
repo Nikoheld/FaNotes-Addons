@@ -1,0 +1,36 @@
+{
+  "id": "media-refs",
+  "name": "Medien-Verweise / Media Refs",
+  "version": "1.0.0",
+  "description": "Listet Bild- und PDF-Verweise in der Notiz oder im Vault-Ausschnitt. Lists image and PDF references in the note or a vault sample.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage",
+    "clipboard"
+  ],
+  "categories": [
+    "productivity",
+    "school",
+    "writing"
+  ],
+  "keywords": [
+    "image",
+    "bild",
+    "pdf",
+    "media",
+    "markdown",
+    "attachment",
+    "embeds"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
