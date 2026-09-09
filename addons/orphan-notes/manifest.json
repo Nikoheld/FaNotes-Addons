@@ -1,0 +1,39 @@
+{
+  "id": "orphan-notes",
+  "name": "Verwaiste Notizen / Orphan Notes",
+  "version": "1.0.0",
+  "description": "Findet Notizen ohne ausgehende Wikilinks (optional auch ohne eingehende). Finds notes with no outgoing wikilinks (optionally also no incoming).",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "writing"
+  ],
+  "keywords": [
+    "orphan",
+    "verwaist",
+    "unlinked",
+    "wikilink",
+    "orphan-notes",
+    "links",
+    "incoming",
+    "outgoing",
+    "notizen",
+    "notes",
+    "backlink",
+    "einsam"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
