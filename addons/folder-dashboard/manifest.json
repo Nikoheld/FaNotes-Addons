@@ -1,0 +1,36 @@
+{
+  "id": "folder-dashboard",
+  "name": "Ordner-Dashboard / Folder Dashboard",
+  "version": "1.0.0",
+  "description": "Ordner-Dashboard: Notizen, offene Aufgaben (− [ ]), Status 📁 N. Folder dashboard: notes, open tasks (− [ ]), status 📁 N.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "statistics"
+  ],
+  "keywords": [
+    "ordner",
+    "folder",
+    "dashboard",
+    "übersicht",
+    "overview",
+    "aufgaben",
+    "tasks",
+    "notes",
+    "notizen"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
