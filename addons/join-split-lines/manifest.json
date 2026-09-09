@@ -1,0 +1,35 @@
+{
+  "id": "join-split-lines",
+  "name": "Zeilen verbinden/trennen / Join Split Lines",
+  "version": "1.0.0",
+  "description": "Verbindet markierte Zeilen oder trennt die Auswahl an einem Trenner. Joins selected lines or splits the selection on a separator.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "productivity"
+  ],
+  "keywords": [
+    "join",
+    "split",
+    "zeilen",
+    "lines",
+    "separator",
+    "verbinden",
+    "trennen",
+    "editor"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
