@@ -1,0 +1,37 @@
+{
+  "id": "note-properties",
+  "name": "Notiz-Eigenschaften / Note Properties",
+  "version": "1.0.0",
+  "description": "Liest und schreibt Key: Value-Eigenschaften am Anfang der Notiz. Reads and writes Key: Value properties at the start of a note.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "notes:read",
+    "notes:write",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "school",
+    "productivity"
+  ],
+  "keywords": [
+    "properties",
+    "eigenschaften",
+    "metadata",
+    "frontmatter",
+    "key",
+    "value",
+    "fach"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
