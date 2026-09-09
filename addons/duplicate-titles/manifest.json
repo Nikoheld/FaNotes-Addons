@@ -1,0 +1,34 @@
+{
+  "id": "duplicate-titles",
+  "name": "Doppelte Titel / Duplicate Titles",
+  "version": "1.0.0",
+  "description": "Findet Notizen mit gleichem Titel oder Dateinamen – Gruppen zum Öffnen. Finds notes with the same title or filename – grouped for opening.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "writing"
+  ],
+  "keywords": [
+    "duplicate",
+    "doppelt",
+    "titel",
+    "title",
+    "basename",
+    "kollision",
+    "hygiene"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
