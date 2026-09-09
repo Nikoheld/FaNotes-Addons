@@ -1,0 +1,41 @@
+{
+  "id": "writing-streak",
+  "name": "Schreib-Serie / Writing Streak",
+  "version": "1.0.0",
+  "description": "Zeigt Schreib- und Stift-Serie aus den Seitenstatistiken: Streak-Tage, Fokuszeit und Wochenziel. Shows typing and pen streak from page stats: streak days, focus time and weekly goal.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "stats:read",
+    "storage"
+  ],
+  "categories": [
+    "statistics",
+    "productivity",
+    "handwriting"
+  ],
+  "keywords": [
+    "streak",
+    "serie",
+    "fokus",
+    "focus",
+    "schreiben",
+    "writing",
+    "stift",
+    "ink",
+    "ziel",
+    "goal",
+    "handschrift",
+    "handwriting"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
