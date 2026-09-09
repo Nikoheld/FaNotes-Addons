@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T14:30:42.210Z",
-  "count": 57,
+  "generatedAt": "2026-09-09T14:33:15.601Z",
+  "count": 58,
   "addons": [
     {
       "id": "append-to-daily",
@@ -1122,6 +1122,63 @@
         }
       },
       "updatedAt": "2026-09-09T14:17:15.000Z"
+    },
+    {
+      "id": "link-census",
+      "name": "Link-Zensus / Link Census",
+      "version": "1.0.0",
+      "description": "Zählt Wikilinks, URLs und Bilder in der aktiven Notiz. Counts wikilinks, URLs and images in the active note.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "editor",
+        "storage",
+        "clipboard"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "statistics",
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "links",
+        "census",
+        "zensus",
+        "wikilink",
+        "url",
+        "count",
+        "zählen",
+        "structure",
+        "struktur",
+        "active",
+        "aktiv"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/link-census",
+      "files": {
+        "main.js": {
+          "size": 25600,
+          "sha256": "4eeae9be50ab292ab6d89bda0748f3047af2ccdfca1620522017247e2d99c4b2"
+        },
+        "README.md": {
+          "size": 6093,
+          "sha256": "c01ad3b41f56622cb0d3a13bcbf589b8a553ac7cd9152466c941e0fc9a2f4fcb"
+        },
+        "icon.svg": {
+          "size": 359,
+          "sha256": "0ec03510ccefef9f8afd4e072f95db9664c55225886d759753e16c68f6a618e0"
+        }
+      },
+      "updatedAt": "2026-09-09T14:33:04.000Z"
     },
     {
       "id": "list-convert",
