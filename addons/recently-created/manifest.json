@@ -1,0 +1,37 @@
+{
+  "id": "recently-created",
+  "name": "Zuletzt erstellt / Recently Created",
+  "version": "1.0.0",
+  "description": "Listet Notizen nach Erstelldatum aus der Seitenstatistik. Lists notes by creation date from page stats.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "stats:read",
+    "storage"
+  ],
+  "categories": [
+    "statistics",
+    "productivity"
+  ],
+  "keywords": [
+    "created",
+    "erstellt",
+    "neu",
+    "recent",
+    "createdAt",
+    "ranking",
+    "firstOpenedAt",
+    "newest",
+    "zuletzt"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
