@@ -1,0 +1,38 @@
+{
+  "id": "callout-inserter",
+  "name": "Callout-Einfüger / Callout Inserter",
+  "version": "1.0.0",
+  "description": "INFO/WARNING/TIP-Callouts (Obsidian) in den Editor einfügen; Auswahl umschließen oder Platzhalter. Insert Obsidian callouts; wrap selection or placeholder body.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage"
+  ],
+  "categories": [
+    "writing"
+  ],
+  "keywords": [
+    "callout",
+    "hinweis",
+    "warnung",
+    "warning",
+    "info",
+    "tip",
+    "tipp",
+    "einfügen",
+    "insert",
+    "obsidian",
+    "markdown",
+    "blockquote"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
