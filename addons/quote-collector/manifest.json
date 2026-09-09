@@ -1,0 +1,39 @@
+{
+  "id": "quote-collector",
+  "name": "Zitatesammler / Quote Collector",
+  "version": "1.0.0",
+  "description": "Sammelt Editor-Zitate mit Quelle; Export nach Quotes.md; letztes Zitat kopieren. Collects editor quotes with source; export to Quotes.md; copy last quote.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "notes:read",
+    "notes:write",
+    "storage",
+    "clipboard"
+  ],
+  "categories": [
+    "writing",
+    "school"
+  ],
+  "keywords": [
+    "zitat",
+    "quote",
+    "citation",
+    "sammeln",
+    "export",
+    "auswahl",
+    "selection",
+    "source",
+    "quelle"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
