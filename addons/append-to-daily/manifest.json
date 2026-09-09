@@ -1,0 +1,35 @@
+{
+  "id": "append-to-daily",
+  "name": "An Tagesnotiz anhängen / Append to Daily",
+  "version": "1.0.0",
+  "description": "Hängt Auswahl oder Prompt-Text an die Tagesnotiz (YYYY-MM-DD). Appends selection or prompted text to today’s daily note (YYYY-MM-DD).",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "notes:read",
+    "notes:write",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "writing"
+  ],
+  "keywords": [
+    "daily",
+    "tagesnotiz",
+    "append",
+    "anhängen",
+    "inbox",
+    "journal"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
