@@ -1,0 +1,40 @@
+{
+  "id": "heading-outline",
+  "name": "Gliederung / Heading Outline",
+  "version": "1.0.0",
+  "description": "ATX-Überschriften (#–######) als Gliederung; TOC-Liste einfügen (ohne Anker); Zwischenablage. ATX headings as outline; insert plain TOC (no anchors); clipboard.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage",
+    "clipboard"
+  ],
+  "categories": [
+    "writing",
+    "productivity"
+  ],
+  "keywords": [
+    "gliederung",
+    "outline",
+    "überschrift",
+    "heading",
+    "inhaltsverzeichnis",
+    "toc",
+    "struktur",
+    "structure",
+    "kopieren",
+    "copy",
+    "zeile",
+    "line"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
