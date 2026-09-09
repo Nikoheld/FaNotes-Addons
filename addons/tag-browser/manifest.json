@@ -1,0 +1,35 @@
+{
+  "id": "tag-browser",
+  "name": "Tag-Browser / Tag Browser",
+  "version": "1.0.0",
+  "description": "Zeigt alle #Hashtags mit Häufigkeit und Notizen pro Tag. Shows all #hashtags with counts and notes per tag.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "writing",
+    "school"
+  ],
+  "keywords": [
+    "tags",
+    "hashtag",
+    "browser",
+    "Themen",
+    "cloud",
+    "filter",
+    "#"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
