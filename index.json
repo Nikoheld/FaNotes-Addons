@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T16:46:14.922Z",
-  "count": 67,
+  "generatedAt": "2026-09-09T16:58:31.863Z",
+  "count": 68,
   "addons": [
     {
       "id": "append-to-daily",
@@ -1648,6 +1648,58 @@
         }
       },
       "updatedAt": "2026-09-09T14:17:40.000Z"
+    },
+    {
+      "id": "md-link-wrap",
+      "name": "Markdown-Link / Markdown Link Wrap",
+      "version": "1.0.0",
+      "description": "Macht aus der Auswahl einen Markdown-Link [Text](URL). Turns the selection into a Markdown link [text](url).",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage",
+        "clipboard"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "link",
+        "markdown",
+        "url",
+        "wrap",
+        "href",
+        "hyperlink",
+        "verlinken",
+        "markdown-link"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/md-link-wrap",
+      "files": {
+        "main.js": {
+          "size": 14480,
+          "sha256": "617c182af68b25bc9f137bbf8219f90c17bed59e0fcf3f22163a954e40f4f16b"
+        },
+        "README.md": {
+          "size": 5645,
+          "sha256": "e1069d867f18355f1bff739dc2251eedb8b3c59c2b4cdb32a7bff1cd7344895e"
+        },
+        "icon.svg": {
+          "size": 315,
+          "sha256": "6b4b30098227281b0033ca2a11da838cfadc67498a05093b3ffef7a844c35540"
+        }
+      },
+      "updatedAt": "2026-09-09T16:58:16.000Z"
     },
     {
       "id": "media-refs",
