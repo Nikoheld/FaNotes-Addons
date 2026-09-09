@@ -1,0 +1,34 @@
+{
+  "id": "folder-stats",
+  "name": "Ordner-Statistik / Folder Stats",
+  "version": "1.0.0",
+  "description": "Zählt Notizen pro Ordner aus der Notizliste – leichte Vault-Übersicht. Counts notes per folder from the note list – a light vault overview.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "statistics",
+    "productivity"
+  ],
+  "keywords": [
+    "folder",
+    "ordner",
+    "stats",
+    "count",
+    "overview",
+    "vault",
+    "tree"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
