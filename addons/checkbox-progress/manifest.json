@@ -1,0 +1,35 @@
+{
+  "id": "checkbox-progress",
+  "name": "Aufgaben-Fortschritt / Checkbox Progress",
+  "version": "1.0.0",
+  "description": "Fortschritt der Markdown-Checkboxen der offenen Notiz (Panel, Balken, Status). Progress of Markdown checkboxes in the open note (panel, bar, status).",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "school"
+  ],
+  "keywords": [
+    "checkbox",
+    "fortschritt",
+    "progress",
+    "aufgaben",
+    "todo",
+    "checklist",
+    "erledigt",
+    "done"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
