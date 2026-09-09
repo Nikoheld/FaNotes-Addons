@@ -1,0 +1,37 @@
+{
+  "id": "session-log",
+  "name": "Sitzungsprotokoll / Session Log",
+  "version": "1.0.0",
+  "description": "Sitzungsprotokoll: Start/Ende mit Zeitstempel und Dauer in einer Log-Notiz; Status und Panel. Session log: start/end with timestamp and duration in a log note; status and panel.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "notes:write",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "school",
+    "writing"
+  ],
+  "keywords": [
+    "session",
+    "sitzung",
+    "log",
+    "protokoll",
+    "start",
+    "ende",
+    "zeit",
+    "duration"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
