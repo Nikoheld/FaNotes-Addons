@@ -1,0 +1,35 @@
+{
+  "id": "strip-markdown",
+  "name": "Markdown entfernen / Strip Markdown",
+  "version": "1.0.0",
+  "description": "Entfernt gängige Markdown-Markierung aus der Auswahl (optional nur kopieren). Strips common Markdown markup from the selection (optionally copy only).",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage",
+    "clipboard"
+  ],
+  "categories": [
+    "writing",
+    "export"
+  ],
+  "keywords": [
+    "strip",
+    "plain",
+    "text",
+    "markdown",
+    "entfernen",
+    "clean",
+    "clipboard"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
