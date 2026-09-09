@@ -1,0 +1,34 @@
+{
+  "id": "line-tools",
+  "name": "Zeilen-Werkzeuge / Line Tools",
+  "version": "1.0.0",
+  "description": "Sortiert, dedupliziert oder kehrt die ausgewählten Editorzeilen um. Sorts, dedupes or reverses the selected editor lines.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "productivity"
+  ],
+  "keywords": [
+    "sort",
+    "zeilen",
+    "lines",
+    "dedupe",
+    "reverse",
+    "editor",
+    "tools"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
