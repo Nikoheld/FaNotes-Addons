@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T14:54:07.654Z",
-  "count": 61,
+  "generatedAt": "2026-09-09T15:01:14.750Z",
+  "count": 62,
   "addons": [
     {
       "id": "append-to-daily",
@@ -1072,6 +1072,57 @@
         }
       },
       "updatedAt": "2026-09-09T14:16:57.000Z"
+    },
+    {
+      "id": "indent-tools",
+      "name": "Einrücken / Indent Tools",
+      "version": "1.0.0",
+      "description": "Rückt markierte Zeilen um Spaces ein oder aus. Indents or outdents selected lines by spaces.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "indent",
+        "einrücken",
+        "outdent",
+        "ausrücken",
+        "tab",
+        "spaces",
+        "zeilen",
+        "editor"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/indent-tools",
+      "files": {
+        "main.js": {
+          "size": 12665,
+          "sha256": "926e929b0eb2ccaf99175a65002953ef65a8c85ce0be05bafd4859b01fc73389"
+        },
+        "README.md": {
+          "size": 5807,
+          "sha256": "1196ba5cc449f38ace171360269423bdaa185376a364cc99307f9582aed79143"
+        },
+        "icon.svg": {
+          "size": 284,
+          "sha256": "489ce84011e4350fb965c3a8a49c4bc6a21be28f520c8b76c47874b3c2d83c49"
+        }
+      },
+      "updatedAt": "2026-09-09T15:00:49.000Z"
     },
     {
       "id": "ink-summary",
