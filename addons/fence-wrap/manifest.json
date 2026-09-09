@@ -1,0 +1,34 @@
+{
+  "id": "fence-wrap",
+  "name": "Codeblock-Umbruch / Fence Wrap",
+  "version": "1.0.0",
+  "description": "Umhüllt die Auswahl mit einem Markdown-Codeblock und optionaler Sprache. Wraps the selection in a Markdown code fence with optional language.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "developer"
+  ],
+  "keywords": [
+    "code",
+    "fence",
+    "codeblock",
+    "wrap",
+    "markdown",
+    "snippet",
+    "backticks"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
