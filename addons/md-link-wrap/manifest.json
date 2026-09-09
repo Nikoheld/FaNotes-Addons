@@ -1,0 +1,36 @@
+{
+  "id": "md-link-wrap",
+  "name": "Markdown-Link / Markdown Link Wrap",
+  "version": "1.0.0",
+  "description": "Macht aus der Auswahl einen Markdown-Link [Text](URL). Turns the selection into a Markdown link [text](url).",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage",
+    "clipboard"
+  ],
+  "categories": [
+    "writing",
+    "productivity"
+  ],
+  "keywords": [
+    "link",
+    "markdown",
+    "url",
+    "wrap",
+    "href",
+    "hyperlink",
+    "verlinken",
+    "markdown-link"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
