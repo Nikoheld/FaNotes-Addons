@@ -1,0 +1,40 @@
+{
+  "id": "quick-inbox",
+  "name": "Schnellerfassung / Quick Inbox",
+  "version": "1.0.0",
+  "description": "Erfasst kurze Aufgaben per Prompt in eine Inbox-Checkliste (Datum, optional Tag, Präfix). Captures quick tasks via prompt into an Inbox checklist with date, optional tag and prefix.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "notes:write",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "school"
+  ],
+  "keywords": [
+    "inbox",
+    "erfassen",
+    "capture",
+    "schnell",
+    "quick",
+    "tag",
+    "schule",
+    "school",
+    "todo",
+    "aufgabe",
+    "task",
+    "checkliste"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
