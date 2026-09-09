@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T14:40:36.850Z",
-  "count": 59,
+  "generatedAt": "2026-09-09T14:51:29.575Z",
+  "count": 60,
   "addons": [
     {
       "id": "append-to-daily",
@@ -2290,6 +2290,61 @@
         }
       },
       "updatedAt": "2026-09-09T14:19:58.000Z"
+    },
+    {
+      "id": "sibling-note",
+      "name": "Geschwister-Notiz / Sibling Note",
+      "version": "1.0.0",
+      "description": "Legt eine neue Notiz im selben Ordner wie die aktive an. Creates a new note in the same folder as the active one.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "notes:write",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "writing",
+        "school"
+      ],
+      "keywords": [
+        "sibling",
+        "geschwister",
+        "same-folder",
+        "new",
+        "notiz",
+        "create",
+        "folder",
+        "ordner",
+        "wikilink",
+        "untitled"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/sibling-note",
+      "files": {
+        "main.js": {
+          "size": 19265,
+          "sha256": "6e879c7400112ea9ba8d0b191c5ec5959d465216140281bff8eafff27aa0808e"
+        },
+        "README.md": {
+          "size": 7511,
+          "sha256": "323c085e022905e86eec6c7c79fed05cc3c594d20dc2f5b67c3d2c810df9e8fd"
+        },
+        "icon.svg": {
+          "size": 433,
+          "sha256": "5a187c770ea691ae039245ad34a65d4d59496440c68935c7582c2af175daf5b3"
+        }
+      },
+      "updatedAt": "2026-09-09T14:51:16.000Z"
     },
     {
       "id": "stale-notes",
