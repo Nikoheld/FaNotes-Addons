@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T16:39:40.333Z",
-  "count": 65,
+  "generatedAt": "2026-09-09T16:42:27.033Z",
+  "count": 66,
   "addons": [
     {
       "id": "append-to-daily",
@@ -2708,6 +2708,58 @@
         }
       },
       "updatedAt": "2026-09-09T14:20:23.000Z"
+    },
+    {
+      "id": "table-sort",
+      "name": "Tabellen sortieren / Table Sort",
+      "version": "1.0.0",
+      "description": "Sortiert die Markdown-Tabelle unter dem Cursor nach einer Spalte. Sorts the Markdown table under the cursor by a column.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity",
+        "school"
+      ],
+      "keywords": [
+        "table",
+        "tabelle",
+        "sort",
+        "sortieren",
+        "markdown",
+        "column",
+        "spalte",
+        "grid"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/table-sort",
+      "files": {
+        "main.js": {
+          "size": 20466,
+          "sha256": "89506758b24a51ba9f01d3765ae79eddd310dd0a752a8eb54d26a3c9dbc02977"
+        },
+        "README.md": {
+          "size": 5262,
+          "sha256": "2380a13d7a021588fb7f03167fa4d2feb0d03f48c688f4a82fe9daefc1c04b27"
+        },
+        "icon.svg": {
+          "size": 365,
+          "sha256": "3a4a6c1a2ef1a3e73afbde59ff2b77edcd64d3bff78f1208812319c0e0198b6c"
+        }
+      },
+      "updatedAt": "2026-09-09T16:42:13.000Z"
     },
     {
       "id": "tag-browser",
