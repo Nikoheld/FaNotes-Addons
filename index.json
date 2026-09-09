@@ -2,9 +2,530 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-08T19:13:04.515Z",
-  "count": 4,
+  "generatedAt": "2026-09-09T14:22:40.275Z",
+  "count": 55,
   "addons": [
+    {
+      "id": "append-to-daily",
+      "name": "An Tagesnotiz anhängen / Append to Daily",
+      "version": "1.0.0",
+      "description": "Hängt Auswahl oder Prompt-Text an die Tagesnotiz (YYYY-MM-DD). Appends selection or prompted text to today’s daily note (YYYY-MM-DD).",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "notes:read",
+        "notes:write",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "writing"
+      ],
+      "keywords": [
+        "daily",
+        "tagesnotiz",
+        "append",
+        "anhängen",
+        "inbox",
+        "journal"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/append-to-daily",
+      "files": {
+        "main.js": {
+          "size": 18560,
+          "sha256": "32e06e5874b085725d3263247f6519f57b5e1261525bbc2cb3734f4142bdd08a"
+        },
+        "README.md": {
+          "size": 6360,
+          "sha256": "1cb8c667bba02c34cfcd4fa4cd53f35a4312670738e747f891ee9d8310db5305"
+        },
+        "icon.svg": {
+          "size": 427,
+          "sha256": "ec3eaa2a10dea8a6c5e86f20b87d9829e8c6393105fd451985a44495bc3b5c84"
+        }
+      },
+      "updatedAt": "2026-09-09T14:14:47.000Z"
+    },
+    {
+      "id": "callout-inserter",
+      "name": "Callout-Einfüger / Callout Inserter",
+      "version": "1.0.0",
+      "description": "INFO/WARNING/TIP-Callouts (Obsidian) in den Editor einfügen; Auswahl umschließen oder Platzhalter. Insert Obsidian callouts; wrap selection or placeholder body.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing"
+      ],
+      "keywords": [
+        "callout",
+        "hinweis",
+        "warnung",
+        "warning",
+        "info",
+        "tip",
+        "tipp",
+        "einfügen",
+        "insert",
+        "obsidian",
+        "markdown",
+        "blockquote"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/callout-inserter",
+      "files": {
+        "main.js": {
+          "size": 15967,
+          "sha256": "3baa5e12c3fe86275a2bcb42bb9f284fbbe5ee3dd6ff5760fe15cb127afb9650"
+        },
+        "README.md": {
+          "size": 5522,
+          "sha256": "bad8e90a52e887a68ff7b3db6b2557b3f548e26dcc913fe0d5993c3418bb9a7b"
+        },
+        "icon.svg": {
+          "size": 331,
+          "sha256": "03fc4f0cbb4c23cb5e10efed6b1b1ac47aab9ab6290a9a651a77292f5cb02e6d"
+        }
+      },
+      "updatedAt": "2026-09-09T14:14:55.000Z"
+    },
+    {
+      "id": "case-tools",
+      "name": "Groß-/Kleinschreibung / Case Tools",
+      "version": "1.0.0",
+      "description": "Wandelt die Auswahl in Groß-, Klein- oder Titelschreibweise um. Converts the selection to upper, lower or title case.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "case",
+        "groß",
+        "klein",
+        "upper",
+        "lower",
+        "title",
+        "camel",
+        "editor"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/case-tools",
+      "files": {
+        "main.js": {
+          "size": 12293,
+          "sha256": "bcb97ab2436de6661ea5805284700df06287fe1280a20af354f48d6ad6ae79ae"
+        },
+        "README.md": {
+          "size": 4460,
+          "sha256": "c4e47c3c4dccd51ece0c9511492eea70632c277bf6c07a76c33a943bd45e431a"
+        },
+        "icon.svg": {
+          "size": 318,
+          "sha256": "2ccd2b86d7409348c2951c0bf98b15620b90e15f13def31df5f1ddde4c529e89"
+        }
+      },
+      "updatedAt": "2026-09-09T14:15:03.000Z"
+    },
+    {
+      "id": "checkbox-progress",
+      "name": "Aufgaben-Fortschritt / Checkbox Progress",
+      "version": "1.0.0",
+      "description": "Fortschritt der Markdown-Checkboxen der offenen Notiz (Panel, Balken, Status). Progress of Markdown checkboxes in the open note (panel, bar, status).",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "school"
+      ],
+      "keywords": [
+        "checkbox",
+        "fortschritt",
+        "progress",
+        "aufgaben",
+        "todo",
+        "checklist",
+        "erledigt",
+        "done"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/checkbox-progress",
+      "files": {
+        "main.js": {
+          "size": 17519,
+          "sha256": "ffb3640cabffffd7f1095f12e68571cc71303af63a4e0c08b905c9434128ad98"
+        },
+        "README.md": {
+          "size": 4797,
+          "sha256": "538f37fa3ea291127a7b7b644eabb7c7d72ffef90bf87c5879029076b61c6f92"
+        },
+        "icon.svg": {
+          "size": 257,
+          "sha256": "be58a54bbac17de3db9206b84fe7f14e6b1aff5a01afe3ee59b3be42570abb1b"
+        }
+      },
+      "updatedAt": "2026-09-09T14:15:12.000Z"
+    },
+    {
+      "id": "daily-note",
+      "name": "Tagesnotiz / Daily Note",
+      "version": "1.0.0",
+      "description": "Öffnet/erstellt die Tagesnotiz (YYYY-MM-DD.md) in einem Ordner (Standard: Daily). Opens/creates a daily note with today/yesterday commands and optional status bar.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "notes:write",
+        "storage",
+        "vault:write"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "writing"
+      ],
+      "keywords": [
+        "tagesnotiz",
+        "daily",
+        "note",
+        "journal",
+        "tagebuch",
+        "heute",
+        "today",
+        "gestern",
+        "yesterday",
+        "diary"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/daily-note",
+      "files": {
+        "main.js": {
+          "size": 14642,
+          "sha256": "f92342d8c5899d3e0b00e5d04f1cbd88f6ae71840972cd29b8806670fdb330bf"
+        },
+        "README.md": {
+          "size": 4084,
+          "sha256": "8d4545aae538f6930573333db5205558657987183cd0e609d5ff0fc3a096ac6a"
+        },
+        "icon.svg": {
+          "size": 431,
+          "sha256": "1218d2a94291e92cac6174d13fc6bb504050a6fdf2d653adf95e3f265fdae05e"
+        }
+      },
+      "updatedAt": "2026-09-09T14:15:20.000Z"
+    },
+    {
+      "id": "deadline-radar",
+      "name": "Frist-Radar / Deadline Radar",
+      "version": "1.0.0",
+      "description": "Scannt Notizen nach DE-/ISO-Daten und zeigt Fristen in Überfällig/Heute/Diese Woche/Später; Status und „nächste Frist“. Scans notes for DE/ISO dates and lists deadlines in Overdue/Today/This week/Later; status bar and “next deadline”.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "school",
+        "productivity"
+      ],
+      "keywords": [
+        "frist",
+        "deadline",
+        "fällig",
+        "due",
+        "radar",
+        "abgabe",
+        "schule",
+        "school",
+        "datum",
+        "date",
+        "überfällig",
+        "overdue"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/deadline-radar",
+      "files": {
+        "main.js": {
+          "size": 25429,
+          "sha256": "da3310b1b032fd61c0bd134de9acff6b5662676fcd9795b0a366e458b1c00580"
+        },
+        "README.md": {
+          "size": 5719,
+          "sha256": "92b16896740543d1d7e327b47f02b19a97a4de60bbf043e842f30a0d34504b02"
+        },
+        "icon.svg": {
+          "size": 495,
+          "sha256": "6b2a145a3c41d477d0e707470150b0f14c9d42966ba3f777b7f9513fe3ef07b0"
+        }
+      },
+      "updatedAt": "2026-09-09T14:15:27.000Z"
+    },
+    {
+      "id": "duplicate-titles",
+      "name": "Doppelte Titel / Duplicate Titles",
+      "version": "1.0.0",
+      "description": "Findet Notizen mit gleichem Titel oder Dateinamen – Gruppen zum Öffnen. Finds notes with the same title or filename – grouped for opening.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "writing"
+      ],
+      "keywords": [
+        "duplicate",
+        "doppelt",
+        "titel",
+        "title",
+        "basename",
+        "kollision",
+        "hygiene"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/duplicate-titles",
+      "files": {
+        "main.js": {
+          "size": 20174,
+          "sha256": "96942fd74eff04f1335828585ae6a17ade39b4f4609f1cb662e80dc5a3cb1f4a"
+        },
+        "README.md": {
+          "size": 6392,
+          "sha256": "80be03e272aa554b5a53e4e11e7e204a5a832f6f84219326f5ce3e11669f5cf1"
+        },
+        "icon.svg": {
+          "size": 373,
+          "sha256": "a3c7ede5700074228262ee875057c73f258d9614855a07a8d47f7823630154b9"
+        }
+      },
+      "updatedAt": "2026-09-09T14:15:36.000Z"
+    },
+    {
+      "id": "empty-notes",
+      "name": "Leere Notizen / Empty Notes",
+      "version": "1.0.0",
+      "description": "Findet leere oder sehr kurze Markdown-Notizen zum Aufräumen. Finds empty or very short Markdown notes for cleanup.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "writing"
+      ],
+      "keywords": [
+        "empty",
+        "leer",
+        "blank",
+        "short",
+        "aufräumen",
+        "cleanup",
+        "placeholder",
+        "notizen",
+        "notes",
+        "kurz"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/empty-notes",
+      "files": {
+        "main.js": {
+          "size": 19394,
+          "sha256": "3659619e9938a918a4b73402d93c4aaae877bac9cfd89c382fb1554ac6890cd8"
+        },
+        "README.md": {
+          "size": 7015,
+          "sha256": "63ccc7538d505ab3b1a81ba7852d23ff938a058bf42d66409205cadffb9861e5"
+        },
+        "icon.svg": {
+          "size": 405,
+          "sha256": "33a6fa7c179bb703ec24056fe7a26e26afb848feb66178edb98e0697e7728649"
+        }
+      },
+      "updatedAt": "2026-09-09T14:15:44.000Z"
+    },
+    {
+      "id": "fence-wrap",
+      "name": "Codeblock-Umbruch / Fence Wrap",
+      "version": "1.0.0",
+      "description": "Umhüllt die Auswahl mit einem Markdown-Codeblock und optionaler Sprache. Wraps the selection in a Markdown code fence with optional language.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "developer"
+      ],
+      "keywords": [
+        "code",
+        "fence",
+        "codeblock",
+        "wrap",
+        "markdown",
+        "snippet",
+        "backticks"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/fence-wrap",
+      "files": {
+        "main.js": {
+          "size": 15005,
+          "sha256": "a1d47112675c73011e5e91640d295804eeb62a021b7542d981256b57b94519ea"
+        },
+        "README.md": {
+          "size": 5473,
+          "sha256": "790b4ba73978f69f64ddef5bbd5f37b5af482ac7c6f5461c7eb94740cc194bfd"
+        },
+        "icon.svg": {
+          "size": 284,
+          "sha256": "c118575b27a244d6d3b8ff4c80f100a6c5fd448c147587de4a518f0a63f58e6d"
+        }
+      },
+      "updatedAt": "2026-09-09T14:15:52.000Z"
+    },
+    {
+      "id": "find-replace-note",
+      "name": "Suchen & Ersetzen / Find Replace Note",
+      "version": "1.0.0",
+      "description": "Sucht und ersetzt Text in der offenen Notiz (einmal oder alle). Finds and replaces text in the open note (once or all).",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "notes:read",
+        "notes:write",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "find",
+        "replace",
+        "suchen",
+        "ersetzen",
+        "note",
+        "editor"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/find-replace-note",
+      "files": {
+        "main.js": {
+          "size": 19551,
+          "sha256": "d518f0135039b6f5286ab998ac6044791d9527678fab9c2f957bac2492808860"
+        },
+        "README.md": {
+          "size": 5213,
+          "sha256": "92a6537a0e7e1278230fa4f6887ab473313a385feb43938372b99ec04acee56b"
+        },
+        "icon.svg": {
+          "size": 309,
+          "sha256": "ac57a0e261258c18dab4ef12d1b65076222fd632012866a79b43b713a5dde857"
+        }
+      },
+      "updatedAt": "2026-09-09T14:16:00.000Z"
+    },
     {
       "id": "focus-timer",
       "name": "Fokus-Timer",
@@ -49,6 +570,268 @@
       "updatedAt": "2026-09-08T18:39:41.000Z"
     },
     {
+      "id": "folder-dashboard",
+      "name": "Ordner-Dashboard / Folder Dashboard",
+      "version": "1.0.0",
+      "description": "Ordner-Dashboard: Notizen, offene Aufgaben (− [ ]), Status 📁 N. Folder dashboard: notes, open tasks (− [ ]), status 📁 N.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "statistics"
+      ],
+      "keywords": [
+        "ordner",
+        "folder",
+        "dashboard",
+        "übersicht",
+        "overview",
+        "aufgaben",
+        "tasks",
+        "notes",
+        "notizen"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/folder-dashboard",
+      "files": {
+        "main.js": {
+          "size": 21685,
+          "sha256": "9d6685d35d415707b94b78f3ac281cbc010037efac9f5ff3415d5b460b064bc9"
+        },
+        "README.md": {
+          "size": 6318,
+          "sha256": "de68e55ca875d12948ddfe310ce653245b192eaf4cf6799aa63e150fa4de4122"
+        },
+        "icon.svg": {
+          "size": 362,
+          "sha256": "9b67e91f2ffe10cccad6fbdba3a090d2abd7b19c4313b74677bbd1623d7cfaf8"
+        }
+      },
+      "updatedAt": "2026-09-09T14:16:09.000Z"
+    },
+    {
+      "id": "folder-stats",
+      "name": "Ordner-Statistik / Folder Stats",
+      "version": "1.0.0",
+      "description": "Zählt Notizen pro Ordner aus der Notizliste – leichte Vault-Übersicht. Counts notes per folder from the note list – a light vault overview.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "statistics",
+        "productivity"
+      ],
+      "keywords": [
+        "folder",
+        "ordner",
+        "stats",
+        "count",
+        "overview",
+        "vault",
+        "tree"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/folder-stats",
+      "files": {
+        "main.js": {
+          "size": 19695,
+          "sha256": "76a44c40b2b52b25496ab7f2f01f11ca7cf4075269950142396615b659b9ee1f"
+        },
+        "README.md": {
+          "size": 7268,
+          "sha256": "e53641c0021a492143cfa5887872fa53123192e6a5a0a936dc171436a50aba3b"
+        },
+        "icon.svg": {
+          "size": 523,
+          "sha256": "5c40a2901c0214256286883325b11eac1926ae3a27a71eb32a4e14104298ff4b"
+        }
+      },
+      "updatedAt": "2026-09-09T14:16:17.000Z"
+    },
+    {
+      "id": "habit-checklist",
+      "name": "Habit-Checkliste / Habit Checklist",
+      "version": "1.0.0",
+      "description": "Führt Habits als Datums-Checkboxen in einer Notiz und toggelt „heute“. Tracks habits as dated checkboxes in one note and toggles today.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "notes:write",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "school"
+      ],
+      "keywords": [
+        "habit",
+        "gewohnheit",
+        "checklist",
+        "täglich",
+        "daily",
+        "checkbox",
+        "streak"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/habit-checklist",
+      "files": {
+        "main.js": {
+          "size": 33366,
+          "sha256": "83462f834ae44c0b66ff324a29bc20c49e55c5c17a16225b43adc1c4b11ceffa"
+        },
+        "README.md": {
+          "size": 6567,
+          "sha256": "a36d68de9524a34a5581c3cbfcfb083876519fc44e6ca8522a3139ad77868858"
+        },
+        "icon.svg": {
+          "size": 381,
+          "sha256": "ba6fb5c126e63423221b90b2d0cfa48ac6dcb94fd3b50bb8a390d9a2a9fd7720"
+        }
+      },
+      "updatedAt": "2026-09-09T14:16:26.000Z"
+    },
+    {
+      "id": "heading-outline",
+      "name": "Gliederung / Heading Outline",
+      "version": "1.0.0",
+      "description": "ATX-Überschriften (#–######) als Gliederung; TOC-Liste einfügen (ohne Anker); Zwischenablage. ATX headings as outline; insert plain TOC (no anchors); clipboard.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage",
+        "clipboard"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "gliederung",
+        "outline",
+        "überschrift",
+        "heading",
+        "inhaltsverzeichnis",
+        "toc",
+        "struktur",
+        "structure",
+        "kopieren",
+        "copy",
+        "zeile",
+        "line"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/heading-outline",
+      "files": {
+        "main.js": {
+          "size": 19567,
+          "sha256": "fe4564fb2527ce28c63d238a9eb278e8c7b08541198e3a678a66c4fe9b6e2a76"
+        },
+        "README.md": {
+          "size": 5586,
+          "sha256": "0d56214c52001b54f428ccbcebe71ab679b8cfbda46b2220aee843217b9a9a5a"
+        },
+        "icon.svg": {
+          "size": 427,
+          "sha256": "c8d4506ba331f14793cc4620ce509a21e06b7733ba00e9abd24d99f84137e879"
+        }
+      },
+      "updatedAt": "2026-09-09T14:16:33.000Z"
+    },
+    {
+      "id": "heading-shift",
+      "name": "Überschrift-Stufe / Heading Shift",
+      "version": "1.0.0",
+      "description": "Erhöht oder verringert die Überschrift-Stufe markierter ATX-Zeilen. Increases or decreases the heading level of selected ATX lines.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "heading",
+        "überschrift",
+        "promote",
+        "demote",
+        "h1",
+        "h2",
+        "markdown",
+        "shift",
+        "stufe",
+        "atx"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/heading-shift",
+      "files": {
+        "main.js": {
+          "size": 11226,
+          "sha256": "e686fbd4b1cdb73d18734b355743ae726673d922fceb32508dbfbe12d7848758"
+        },
+        "README.md": {
+          "size": 5995,
+          "sha256": "1cc38c6967fa617198f7b50ed94ecb0b83472444b1620cbddd198c6911280127"
+        },
+        "icon.svg": {
+          "size": 311,
+          "sha256": "33b9a99100481427801917916708121d618154e256b07c20f18aa29979d894fe"
+        }
+      },
+      "updatedAt": "2026-09-09T14:16:41.000Z"
+    },
+    {
       "id": "hello-world",
       "name": "Hello World",
       "version": "1.0.1",
@@ -85,6 +868,529 @@
         }
       },
       "updatedAt": "2026-09-08T19:12:54.000Z"
+    },
+    {
+      "id": "hot-notes",
+      "name": "Meist geöffnet / Hot Notes",
+      "version": "1.0.0",
+      "description": "Rankt Notizen nach Öffnungen oder Verweildauer aus der Seitenstatistik. Ranks notes by opens or dwell time from page stats.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "stats:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "statistics",
+        "productivity"
+      ],
+      "keywords": [
+        "hot",
+        "meist",
+        "opened",
+        "openCount",
+        "dwell",
+        "ranking",
+        "frequently"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/hot-notes",
+      "files": {
+        "main.js": {
+          "size": 23385,
+          "sha256": "720e7e94d32041fbcf7da7dacec9292ed00582e0af4bff60065bc079f5a4db81"
+        },
+        "README.md": {
+          "size": 7564,
+          "sha256": "6a9b271ed5840e5788116e55f5a9360227e480ff532ca4196c8319d6398586a0"
+        },
+        "icon.svg": {
+          "size": 380,
+          "sha256": "d278da1425f0d1659d775e013346f856c2dff88d2ef96f3e439b076abcca290a"
+        }
+      },
+      "updatedAt": "2026-09-09T14:16:49.000Z"
+    },
+    {
+      "id": "hour-heatmap",
+      "name": "Stunden-Heatmap / Hour Heatmap",
+      "version": "1.0.0",
+      "description": "Aggregiert Fokus-/Öffnungszeiten nach Tagesstunde aus der Seitenstatistik. Aggregates focus/open times by hour of day from page stats.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "stats:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "statistics",
+        "productivity"
+      ],
+      "keywords": [
+        "heatmap",
+        "stunden",
+        "hours",
+        "focus",
+        "dwell",
+        "opensByHour",
+        "chronotype"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/hour-heatmap",
+      "files": {
+        "main.js": {
+          "size": 20212,
+          "sha256": "1dc3b42e10455f154d80c4531a3395b656d094043f7505ea73790a85091208ef"
+        },
+        "README.md": {
+          "size": 6450,
+          "sha256": "bd6929b90601151f5215e2640d2437aac124792f2ad7c9a020cc64f0db85bb5b"
+        },
+        "icon.svg": {
+          "size": 698,
+          "sha256": "21ebf4a49b7ab4d4cdb765dd260e69be2fe8efadaa93de3660cd2966f72f3b36"
+        }
+      },
+      "updatedAt": "2026-09-09T14:16:57.000Z"
+    },
+    {
+      "id": "ink-summary",
+      "name": "Tinten-Übersicht / Ink Summary",
+      "version": "1.0.0",
+      "description": "Zeigt Stift-Statistik der aktiven Notiz (Striche, Zeit, Farben). Shows pen stats for the active note (strokes, time, colors).",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "stats:read",
+        "ink:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "handwriting",
+        "statistics"
+      ],
+      "keywords": [
+        "ink",
+        "tinte",
+        "stift",
+        "handwriting",
+        "strokes",
+        "pen",
+        "zeichnen"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/ink-summary",
+      "files": {
+        "main.js": {
+          "size": 18625,
+          "sha256": "849199cf34170372a2f44652a26f86cd423392b36a53ed9f4ac90f93f214fc9e"
+        },
+        "README.md": {
+          "size": 6046,
+          "sha256": "bdd5607e776944d80640f4ad9c4dac6f7e77578d823a26ca115fab0040f22b53"
+        },
+        "icon.svg": {
+          "size": 306,
+          "sha256": "145e92b7d0bf5c30ded529fbba5056569b93f3a5291f8ed380c8d97e467fdec6"
+        }
+      },
+      "updatedAt": "2026-09-09T14:17:06.000Z"
+    },
+    {
+      "id": "line-tools",
+      "name": "Zeilen-Werkzeuge / Line Tools",
+      "version": "1.0.0",
+      "description": "Sortiert, dedupliziert oder kehrt die ausgewählten Editorzeilen um. Sorts, dedupes or reverses the selected editor lines.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "sort",
+        "zeilen",
+        "lines",
+        "dedupe",
+        "reverse",
+        "editor",
+        "tools"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/line-tools",
+      "files": {
+        "main.js": {
+          "size": 12394,
+          "sha256": "f7caa1688dbd7eca21134a35bdcb73bafe49b4f63ae2103635ea2c1ce2af06d2"
+        },
+        "README.md": {
+          "size": 4821,
+          "sha256": "bc98b84cd83a60bd2883ebf125654782108dd81bc2a87076089242d8d28ab7c0"
+        },
+        "icon.svg": {
+          "size": 313,
+          "sha256": "adef8be81e9b5654d07164e7a9726f0ed7e3a3d342773a8f4896709f755a0bd2"
+        }
+      },
+      "updatedAt": "2026-09-09T14:17:15.000Z"
+    },
+    {
+      "id": "list-convert",
+      "name": "Listen-Umwandler / List Convert",
+      "version": "1.0.0",
+      "description": "Wandelt markierte Zeilen in Aufzählung, Nummerierung oder Aufgabenliste um. Converts selected lines into bullets, numbers or task lists.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "list",
+        "liste",
+        "bullet",
+        "numbered",
+        "task",
+        "checkbox",
+        "convert",
+        "umwandeln"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/list-convert",
+      "files": {
+        "main.js": {
+          "size": 12212,
+          "sha256": "8c5ac5c0303adfb2126bef056ca88417c910b0fd6efd6fe63355d198c9ae40f5"
+        },
+        "README.md": {
+          "size": 5031,
+          "sha256": "96b7b64064bea672a40fcc76c711f1e5b094d6ddd5f0fa9cb415f6175323c428"
+        },
+        "icon.svg": {
+          "size": 446,
+          "sha256": "5f961b877e293da148bc6046d2d4692c45650eda1da2929face7059048a7e60b"
+        }
+      },
+      "updatedAt": "2026-09-09T14:17:24.000Z"
+    },
+    {
+      "id": "long-notes",
+      "name": "Lange Notizen / Long Notes",
+      "version": "1.0.0",
+      "description": "Findet sehr lange Markdown-Notizen nach Zeichenlänge – Kandidaten zum Teilen. Finds very long Markdown notes by character length – split candidates.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "statistics",
+        "writing"
+      ],
+      "keywords": [
+        "long",
+        "lang",
+        "size",
+        "chars",
+        "words",
+        "bulky",
+        "split-candidate"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/long-notes",
+      "files": {
+        "main.js": {
+          "size": 21235,
+          "sha256": "6148ce8170aa80a7a2fd9f3461642eae2d335a08f411e5b05211b7e6df756619"
+        },
+        "README.md": {
+          "size": 7506,
+          "sha256": "6cec72c211501eda520832f2c50d8e6d2d3f64cfc8094a86d87bb60f9fd87e51"
+        },
+        "icon.svg": {
+          "size": 400,
+          "sha256": "79419f87da87d60cf165982b553b3a6372ad51b3a2f803d29a426ea5a99c59ed"
+        }
+      },
+      "updatedAt": "2026-09-09T14:17:32.000Z"
+    },
+    {
+      "id": "math-snippets",
+      "name": "Formel-Schnipsel / Math Snippets",
+      "version": "1.0.0",
+      "description": "LaTeX-Formel-Schnipsel (Algebra, Analysis, Linear, Sonstiges) einfügen; eigene speichern; inline $…$ oder Display $$…$$. Insert LaTeX math snippets; save custom ones; wrap as inline or display math.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "school"
+      ],
+      "keywords": [
+        "formel",
+        "math",
+        "latex",
+        "schnipsel",
+        "snippet",
+        "algebra",
+        "analysis",
+        "bruch",
+        "fraction",
+        "integral",
+        "matrix",
+        "schule"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/math-snippets",
+      "files": {
+        "main.js": {
+          "size": 28454,
+          "sha256": "8dfb699fe0c9271c9e8e3eee697f93f802b846b3c378931d150efa75b3f94fe3"
+        },
+        "README.md": {
+          "size": 5563,
+          "sha256": "1d4f39ed3630ee5b5ad3bd170947e42dca5f43fb967a67f5677c75d52fcc63e5"
+        },
+        "icon.svg": {
+          "size": 264,
+          "sha256": "5c4eefd21d248148bd5a15c277d42fe9b8baae1ed3f9aa02f9a3738a6749ee99"
+        }
+      },
+      "updatedAt": "2026-09-09T14:17:40.000Z"
+    },
+    {
+      "id": "media-refs",
+      "name": "Medien-Verweise / Media Refs",
+      "version": "1.0.0",
+      "description": "Listet Bild- und PDF-Verweise in der Notiz oder im Vault-Ausschnitt. Lists image and PDF references in the note or a vault sample.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage",
+        "clipboard"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "school",
+        "writing"
+      ],
+      "keywords": [
+        "image",
+        "bild",
+        "pdf",
+        "media",
+        "markdown",
+        "attachment",
+        "embeds"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/media-refs",
+      "files": {
+        "main.js": {
+          "size": 24501,
+          "sha256": "19a5c7b8526a03a0aaf76783116ff1f51bae372ed39be34f99eb58461908ef68"
+        },
+        "README.md": {
+          "size": 7091,
+          "sha256": "13ca490f732cf4a3fa5fbc28e8301d0d634d43822bc6cb7a34e123a72ae8327a"
+        },
+        "icon.svg": {
+          "size": 294,
+          "sha256": "eae718ef6276a38e22546eef07aa397b30cdc3446704970bba4fe62c922ca4a8"
+        }
+      },
+      "updatedAt": "2026-09-09T14:17:50.000Z"
+    },
+    {
+      "id": "note-properties",
+      "name": "Notiz-Eigenschaften / Note Properties",
+      "version": "1.0.0",
+      "description": "Liest und schreibt Key: Value-Eigenschaften am Anfang der Notiz. Reads and writes Key: Value properties at the start of a note.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "notes:read",
+        "notes:write",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "school",
+        "productivity"
+      ],
+      "keywords": [
+        "properties",
+        "eigenschaften",
+        "metadata",
+        "frontmatter",
+        "key",
+        "value",
+        "fach"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/note-properties",
+      "files": {
+        "main.js": {
+          "size": 26434,
+          "sha256": "45e1ffd857176466fc00dc887ebe7703f1435f9ef0a87d3310aac9b52db4fb35"
+        },
+        "README.md": {
+          "size": 6390,
+          "sha256": "f863e8d3d3e944af8207804c0f8293653d4f0a8abb5a32fbf3188a88abb38029"
+        },
+        "icon.svg": {
+          "size": 463,
+          "sha256": "9677194375abde5cfa210e25e1d218e98f8d28cbf2b515e2fc71c606cf28666b"
+        }
+      },
+      "updatedAt": "2026-09-09T14:17:58.000Z"
+    },
+    {
+      "id": "note-splitter",
+      "name": "Notiz teilen / Note Splitter",
+      "version": "1.0.0",
+      "description": "Teilt die offene Notiz an Überschriften in neue Notizen. Splits the open note at headings into new notes.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "notes:read",
+        "notes:write",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity",
+        "school"
+      ],
+      "keywords": [
+        "split",
+        "teilen",
+        "heading",
+        "kapitel",
+        "chapter",
+        "h2",
+        "notiz",
+        "section",
+        "überschrift",
+        "cut",
+        "copy"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/note-splitter",
+      "files": {
+        "main.js": {
+          "size": 28477,
+          "sha256": "7eb5694935f7b80ce6d00baf68ff795e094773a64adbb77697fa53cdf68ab9e1"
+        },
+        "README.md": {
+          "size": 7450,
+          "sha256": "db75e3f254b07fece40c897ffa742db04dc088bfc3f76132a3ee8e31205117d1"
+        },
+        "icon.svg": {
+          "size": 337,
+          "sha256": "ce668cd759ca5037ceefe87755b6b50dcc45fd045c5d22e94d4b44d4df1b8775"
+        }
+      },
+      "updatedAt": "2026-09-09T14:18:07.000Z"
     },
     {
       "id": "note-statistics",
@@ -130,6 +1436,860 @@
       "updatedAt": "2026-09-08T18:39:41.000Z"
     },
     {
+      "id": "orphan-notes",
+      "name": "Verwaiste Notizen / Orphan Notes",
+      "version": "1.0.0",
+      "description": "Findet Notizen ohne ausgehende Wikilinks (optional auch ohne eingehende). Finds notes with no outgoing wikilinks (optionally also no incoming).",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "writing"
+      ],
+      "keywords": [
+        "orphan",
+        "verwaist",
+        "unlinked",
+        "wikilink",
+        "orphan-notes",
+        "links",
+        "incoming",
+        "outgoing",
+        "notizen",
+        "notes",
+        "backlink",
+        "einsam"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/orphan-notes",
+      "files": {
+        "main.js": {
+          "size": 28668,
+          "sha256": "da6d087799a74aaeac4aee9f038dbdaa9fe90610c84759433607a93896b886d2"
+        },
+        "README.md": {
+          "size": 6753,
+          "sha256": "ae191983454375144578ee6c8608a5f96823f88f6d7660dc58d358efa8615c9d"
+        },
+        "icon.svg": {
+          "size": 336,
+          "sha256": "b81d0ae69e97f7ba41ffa5b697416178744a119f7219208e2a4d159ed6e4489c"
+        }
+      },
+      "updatedAt": "2026-09-09T14:18:15.000Z"
+    },
+    {
+      "id": "path-copier",
+      "name": "Pfad kopieren / Path Copier",
+      "version": "1.0.0",
+      "description": "Kopiert Pfad, Titel oder Wikilink der aktiven Notiz in die Zwischenablage. Copies path, title or wikilink of the active note to the clipboard.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "clipboard",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "developer"
+      ],
+      "keywords": [
+        "path",
+        "pfad",
+        "copy",
+        "kopieren",
+        "title",
+        "wikilink",
+        "clipboard"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/path-copier",
+      "files": {
+        "main.js": {
+          "size": 15205,
+          "sha256": "8f338c512980e93e407864be554a7418fd71c94bb2399ac580578186b17a9608"
+        },
+        "README.md": {
+          "size": 5728,
+          "sha256": "e11d7d61dd80608956b852d9dcfc74f9b7f002ed20b6a6a9592f958b6f950f90"
+        },
+        "icon.svg": {
+          "size": 348,
+          "sha256": "db0726dfc877a451fefb3313b77f584f359ce181e34525d592def831768cb30c"
+        }
+      },
+      "updatedAt": "2026-09-09T14:18:23.000Z"
+    },
+    {
+      "id": "pinboard",
+      "name": "Pinnwand / Pinboard",
+      "version": "1.0.0",
+      "description": "Heftet Notizen und Textauswahl an eine Pinnwand (max. 50); öffnen, einfügen, kopieren, sortieren. Pins notes and text selections to a board (max 50); open, insert, copy, reorder.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "editor",
+        "storage",
+        "clipboard"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity"
+      ],
+      "keywords": [
+        "pinnwand",
+        "pinboard",
+        "pin",
+        "anheften",
+        "notiz",
+        "note",
+        "auswahl",
+        "selection",
+        "zwischenablage",
+        "clipboard",
+        "merken",
+        "bookmark"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/pinboard",
+      "files": {
+        "main.js": {
+          "size": 25995,
+          "sha256": "1c31adca65c270528c38e313d1780a5446ce43cd6d6f59f314e3a51ed0f167d3"
+        },
+        "README.md": {
+          "size": 5621,
+          "sha256": "32c57ed801ca3a3d837ce7cdc7cd632e5992e37ae564bccd0ce9c030e53c4630"
+        },
+        "icon.svg": {
+          "size": 406,
+          "sha256": "636750f1b8965942175445d6d47c20a0925ea3ce4a4f4055445dc308d4d65884"
+        }
+      },
+      "updatedAt": "2026-09-09T14:18:31.000Z"
+    },
+    {
+      "id": "quick-inbox",
+      "name": "Schnellerfassung / Quick Inbox",
+      "version": "1.0.0",
+      "description": "Erfasst kurze Aufgaben per Prompt in eine Inbox-Checkliste (Datum, optional Tag, Präfix). Captures quick tasks via prompt into an Inbox checklist with date, optional tag and prefix.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "notes:write",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "school"
+      ],
+      "keywords": [
+        "inbox",
+        "erfassen",
+        "capture",
+        "schnell",
+        "quick",
+        "tag",
+        "schule",
+        "school",
+        "todo",
+        "aufgabe",
+        "task",
+        "checkliste"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/quick-inbox",
+      "files": {
+        "main.js": {
+          "size": 20288,
+          "sha256": "9c58439dde6fcfdae5e013ca5392639eb5b5aa5510be2904067a182dd2921cef"
+        },
+        "README.md": {
+          "size": 5113,
+          "sha256": "a1c65d9d3631fdda91eca5eccf14411a61a7d7eb707efb93df762b550a302b21"
+        },
+        "icon.svg": {
+          "size": 344,
+          "sha256": "ea949c7cac967cc78dc66d66170d0eedad200ab9ee6c29ae9e9907287cd89e06"
+        }
+      },
+      "updatedAt": "2026-09-09T14:18:39.000Z"
+    },
+    {
+      "id": "quote-collector",
+      "name": "Zitatesammler / Quote Collector",
+      "version": "1.0.0",
+      "description": "Sammelt Editor-Zitate mit Quelle; Export nach Quotes.md; letztes Zitat kopieren. Collects editor quotes with source; export to Quotes.md; copy last quote.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "notes:read",
+        "notes:write",
+        "storage",
+        "clipboard"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "school"
+      ],
+      "keywords": [
+        "zitat",
+        "quote",
+        "citation",
+        "sammeln",
+        "export",
+        "auswahl",
+        "selection",
+        "source",
+        "quelle"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/quote-collector",
+      "files": {
+        "main.js": {
+          "size": 31252,
+          "sha256": "acb0ca1063d31a102a61d15c5840fbdd5f0cb82408a8fbb194936f811be42e8b"
+        },
+        "README.md": {
+          "size": 6416,
+          "sha256": "053d568a089e9a090a1e9ecf54faf33ffb5c0c6229a1469bc726fc4b21bb878b"
+        },
+        "icon.svg": {
+          "size": 438,
+          "sha256": "d60128ca28be3ff5314518f4da1349260dabc938872d993e348a2a123612ee2f"
+        }
+      },
+      "updatedAt": "2026-09-09T14:18:48.000Z"
+    },
+    {
+      "id": "random-note",
+      "name": "Zufallsnotiz / Random Note",
+      "version": "1.0.0",
+      "description": "Zufallsnotiz öffnen (gleichmäßig), Ordnerfilter, kürzlich meiden. Open a random note (uniform), folder filter, avoid recent.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "fun",
+        "writing"
+      ],
+      "keywords": [
+        "zufall",
+        "random",
+        "surprise",
+        "serendipity",
+        "review",
+        "entdecken",
+        "note",
+        "notiz"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/random-note",
+      "files": {
+        "main.js": {
+          "size": 20559,
+          "sha256": "d30ac39320c54defd94fe8f7b23c9026ce5e1b7b7caa080c75dcc5c4079d216c"
+        },
+        "README.md": {
+          "size": 5828,
+          "sha256": "8fb32c383d8fa648448aa5291bd347880b65eb99a2c93ac6b6ddff305fd31823"
+        },
+        "icon.svg": {
+          "size": 569,
+          "sha256": "294fb275fdab48daaa27f5f0f4a5f87b6616147d45293232f6d4ea5186bf7700"
+        }
+      },
+      "updatedAt": "2026-09-09T14:18:57.000Z"
+    },
+    {
+      "id": "reading-queue",
+      "name": "Lesewarteschlange / Reading Queue",
+      "version": "1.0.0",
+      "description": "Persönliche Lesewarteschlange: aktive Notiz, ungelesen/gelesen, optional Fälligkeit, nächste öffnen. Personal reading queue: save active note, unread/read, optional due, open next.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "school",
+        "writing"
+      ],
+      "keywords": [
+        "lesen",
+        "reading",
+        "warteschlange",
+        "queue",
+        "ungelesen",
+        "unread",
+        "fällig",
+        "due",
+        "notiz",
+        "note",
+        "schule",
+        "school"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/reading-queue",
+      "files": {
+        "main.js": {
+          "size": 31267,
+          "sha256": "db1b87fd873a993bffdea1f969f89a7b7d47a9bcacd398c854fd25b0abdbf28d"
+        },
+        "README.md": {
+          "size": 6497,
+          "sha256": "96b28be1676b82948db055263c76ac81e6e1684c47424d549f76d42076157aeb"
+        },
+        "icon.svg": {
+          "size": 410,
+          "sha256": "1c4786143d2082a2e05f0ea6123ec36cb9e1b12e3477ab4cbb64b2528bbe68cd"
+        }
+      },
+      "updatedAt": "2026-09-09T14:19:06.000Z"
+    },
+    {
+      "id": "recently-created",
+      "name": "Zuletzt erstellt / Recently Created",
+      "version": "1.0.0",
+      "description": "Listet Notizen nach Erstelldatum aus der Seitenstatistik. Lists notes by creation date from page stats.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "stats:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "statistics",
+        "productivity"
+      ],
+      "keywords": [
+        "created",
+        "erstellt",
+        "neu",
+        "recent",
+        "createdAt",
+        "ranking",
+        "firstOpenedAt",
+        "newest",
+        "zuletzt"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/recently-created",
+      "files": {
+        "main.js": {
+          "size": 23594,
+          "sha256": "cc1e2e1a062a73351fec20e067eee316f9f53d07c41a5ff187de01bc61637e93"
+        },
+        "README.md": {
+          "size": 8052,
+          "sha256": "d0dcc88a3a2f097e2ccecd66a71a6ff66f6dad1dcf3cbb275759898d10439bcd"
+        },
+        "icon.svg": {
+          "size": 404,
+          "sha256": "4180f833acd5fc8e3852f3861782622b88409ef7339341da3e0c26b99150b157"
+        }
+      },
+      "updatedAt": "2026-09-09T14:19:15.000Z"
+    },
+    {
+      "id": "related-by-tags",
+      "name": "Verwandte per Tag / Related by Tags",
+      "version": "1.0.0",
+      "description": "Findet verwandte Notizen über gemeinsame #Hashtags (Überlappung); Panel, Cache, optional Status. Finds related notes via shared #hashtags (overlap); panel, cache, optional status.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "writing",
+        "school"
+      ],
+      "keywords": [
+        "tags",
+        "verwandt",
+        "related",
+        "hashtag",
+        "#",
+        "links",
+        "ähnlich",
+        "similar",
+        "overlap"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/related-by-tags",
+      "files": {
+        "main.js": {
+          "size": 25910,
+          "sha256": "3a08ad2400e0d655058128bdbcd7ca9bad60dffe6dad88129ba1c973d5b9d6df"
+        },
+        "README.md": {
+          "size": 6753,
+          "sha256": "ae2ef2e047815affb7580ca3c43f188895c0dd687b63475be16e8868fd910fec"
+        },
+        "icon.svg": {
+          "size": 256,
+          "sha256": "5e81feaeab999a83729524aea9a14fd261381e818d8ea6b56405af170144d761"
+        }
+      },
+      "updatedAt": "2026-09-09T14:19:24.000Z"
+    },
+    {
+      "id": "saved-searches",
+      "name": "Gespeicherte Suchen / Saved Searches",
+      "version": "1.0.0",
+      "description": "Gespeicherte Suchanfragen speichern und erneut ausführen (Vault-Volltext). Save and re-run vault full-text searches.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "writing"
+      ],
+      "keywords": [
+        "suche",
+        "search",
+        "saved",
+        "gespeichert",
+        "query",
+        "find",
+        "filter",
+        "vault",
+        "notiz",
+        "note"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/saved-searches",
+      "files": {
+        "main.js": {
+          "size": 22136,
+          "sha256": "f9ab20080a42aea47429946c22d40eb6a4df10370f61cefe08a64ae3a5c86a0e"
+        },
+        "README.md": {
+          "size": 4783,
+          "sha256": "050bb51eede8368423a85e8136eac7da2a0e1f8594aa546f0b95a0e1d69013dc"
+        },
+        "icon.svg": {
+          "size": 284,
+          "sha256": "7c931e603e730f2432dbf43d5c1168aaa996d7ea894e7876364a39e8a400aed4"
+        }
+      },
+      "updatedAt": "2026-09-09T14:19:33.000Z"
+    },
+    {
+      "id": "scratchpad",
+      "name": "Notizzettel / Scratchpad",
+      "version": "1.0.0",
+      "description": "Notizzettel (max. 100000 Zeichen): Text parken, einfügen, kopieren, Auswahl anhängen. Scratchpad (max 100000 chars): park text, insert, copy, or append selection.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage",
+        "clipboard"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "writing"
+      ],
+      "keywords": [
+        "scratch",
+        "notizzettel",
+        "parkplatz",
+        "draft",
+        "zwischenablage",
+        "clipboard",
+        "note",
+        "zettel"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/scratchpad",
+      "files": {
+        "main.js": {
+          "size": 14983,
+          "sha256": "a433318447c391257600f250e930ff6fe07ab9782b3294900866eadb983b4ece"
+        },
+        "README.md": {
+          "size": 5157,
+          "sha256": "c04884f9a44c602fcbb9945560dd4bf85121535e73eb6eeae7170cbb4d083507"
+        },
+        "icon.svg": {
+          "size": 318,
+          "sha256": "2dc4f3094d53863159ee0c4801212e0c7be530d8ac274b4032a3137739566161"
+        }
+      },
+      "updatedAt": "2026-09-09T14:19:42.000Z"
+    },
+    {
+      "id": "selection-to-note",
+      "name": "Auswahl → Notiz / Selection to Note",
+      "version": "1.0.0",
+      "description": "Erstellt aus der Auswahl eine neue Notiz und ersetzt sie optional durch einen Wikilink. Creates a new note from the selection and optionally replaces it with a wikilink.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "notes:read",
+        "notes:write",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity",
+        "school"
+      ],
+      "keywords": [
+        "selection",
+        "auswahl",
+        "extract",
+        "extrahieren",
+        "wikilink",
+        "split",
+        "new-note"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/selection-to-note",
+      "files": {
+        "main.js": {
+          "size": 20467,
+          "sha256": "5c61f87ee9d1e899e1d1ef6dbf9fd8cad8143839c32c10dbae85be1d397dcb0b"
+        },
+        "README.md": {
+          "size": 6113,
+          "sha256": "1fcb499e4ea1ca41e447029dac7a50ed6344dd33954ca355a1841c0edb162500"
+        },
+        "icon.svg": {
+          "size": 452,
+          "sha256": "48365f0f387e8799ee052c4f8651e0509b83e1416f6534e813500ebdcc2a9c9c"
+        }
+      },
+      "updatedAt": "2026-09-09T14:19:50.000Z"
+    },
+    {
+      "id": "session-log",
+      "name": "Sitzungsprotokoll / Session Log",
+      "version": "1.0.0",
+      "description": "Sitzungsprotokoll: Start/Ende mit Zeitstempel und Dauer in einer Log-Notiz; Status und Panel. Session log: start/end with timestamp and duration in a log note; status and panel.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "notes:write",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "school",
+        "writing"
+      ],
+      "keywords": [
+        "session",
+        "sitzung",
+        "log",
+        "protokoll",
+        "start",
+        "ende",
+        "zeit",
+        "duration"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/session-log",
+      "files": {
+        "main.js": {
+          "size": 23310,
+          "sha256": "04361e642618f937174f20c72cf8049365d11786507f9d5d45611c80b2bb6686"
+        },
+        "README.md": {
+          "size": 5829,
+          "sha256": "05ff7e1bb5162e181d02a7837f093f053bd6d3193190f6fde47ee276f4bd1302"
+        },
+        "icon.svg": {
+          "size": 342,
+          "sha256": "692d17666bb6be015d9f6dcf9c6d8aafec47bcf09915719702762c4a68601e90"
+        }
+      },
+      "updatedAt": "2026-09-09T14:19:58.000Z"
+    },
+    {
+      "id": "stale-notes",
+      "name": "Veraltete Notizen / Stale Notes",
+      "version": "1.0.0",
+      "description": "Notizen nach modifiedAt-Alter: Schwelle, Ordner, älteste zuerst. Notes by modifiedAt age: threshold, folder, oldest first.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "statistics"
+      ],
+      "keywords": [
+        "stale",
+        "veraltet",
+        "idle",
+        "untouched",
+        "review",
+        "alt",
+        "aging",
+        "notizen",
+        "notes",
+        "modified",
+        "schwelle",
+        "älteste"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/stale-notes",
+      "files": {
+        "main.js": {
+          "size": 20466,
+          "sha256": "0775a3f3b2ee235ed5867e9c924f36c6f33610db8e4b82ee4b6b7263dcbcf60b"
+        },
+        "README.md": {
+          "size": 6421,
+          "sha256": "ed3daaba8af1423117c5928ae859dc0f6a226be895e72f2548cfca8a52626b1a"
+        },
+        "icon.svg": {
+          "size": 352,
+          "sha256": "3d2fef23bfcb79aff7f4444c8ecf8a10ca4b15d28cba90d75aa873fe6c3d7604"
+        }
+      },
+      "updatedAt": "2026-09-09T14:20:07.000Z"
+    },
+    {
+      "id": "table-inserter",
+      "name": "Tabellen-Einfüger / Table Inserter",
+      "version": "1.0.0",
+      "description": "Fügt eine leere Markdown-Tabelle mit wählbaren Zeilen/Spalten ein. Inserts an empty Markdown table with chosen rows and columns.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "school"
+      ],
+      "keywords": [
+        "table",
+        "tabelle",
+        "markdown",
+        "grid",
+        "rows",
+        "columns",
+        "insert"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/table-inserter",
+      "files": {
+        "main.js": {
+          "size": 15476,
+          "sha256": "a48bb0cc765608cdb66e084fc30d7cbe3201f974dd4a8fe050cf9e907d60ca04"
+        },
+        "README.md": {
+          "size": 4630,
+          "sha256": "95131862c36065631c1687d55031e93ee963604693414a8053be463866568f83"
+        },
+        "icon.svg": {
+          "size": 308,
+          "sha256": "43381beda635ab43a9dd25468bf4b0a6cdc4581029c308c68eeb86fa605ddc57"
+        }
+      },
+      "updatedAt": "2026-09-09T14:20:23.000Z"
+    },
+    {
+      "id": "tag-browser",
+      "name": "Tag-Browser / Tag Browser",
+      "version": "1.0.0",
+      "description": "Zeigt alle #Hashtags mit Häufigkeit und Notizen pro Tag. Shows all #hashtags with counts and notes per tag.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "writing",
+        "school"
+      ],
+      "keywords": [
+        "tags",
+        "hashtag",
+        "browser",
+        "Themen",
+        "cloud",
+        "filter",
+        "#"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/tag-browser",
+      "files": {
+        "main.js": {
+          "size": 24179,
+          "sha256": "0e928f6bd9f260e38f567c469931d4338722a1228b2669f2ba9e4b7e8977aa77"
+        },
+        "README.md": {
+          "size": 6992,
+          "sha256": "8eb888c3287801861700d581f559287135b1829586bd94e7d8ce59aedddfd946"
+        },
+        "icon.svg": {
+          "size": 300,
+          "sha256": "fc2fe3ee5df0cec4d76d6d2d34a742461ed4c05ac156ccc42a518e5c8f0a32c5"
+        }
+      },
+      "updatedAt": "2026-09-09T14:20:31.000Z"
+    },
+    {
       "id": "task-collector",
       "name": "Aufgaben-Sammler",
       "version": "1.0.0",
@@ -170,6 +2330,548 @@
         }
       },
       "updatedAt": "2026-09-08T18:39:41.000Z"
+    },
+    {
+      "id": "template-library",
+      "name": "Vorlagen-Bibliothek / Template Library",
+      "version": "1.0.0",
+      "description": "CRUD für Textvorlagen; Einfügen mit {{date}}/{{time}}/{{title}}/{{selection}}. Manages templates and inserts them with date, time, title and selection placeholders.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity",
+        "school"
+      ],
+      "keywords": [
+        "vorlage",
+        "template",
+        "bibliothek",
+        "library",
+        "einfügen",
+        "insert",
+        "platzhalter",
+        "placeholder",
+        "protokoll",
+        "hausaufgabe",
+        "homework",
+        "wochenplan"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/template-library",
+      "files": {
+        "main.js": {
+          "size": 23127,
+          "sha256": "e4d8b3b3d9cb293f41097f0f5e994e2aac1ac7fc11cc0c7b922df3ec9ff04346"
+        },
+        "README.md": {
+          "size": 4969,
+          "sha256": "e30a27e9315eea5ec3a920c81cf87223e6d9907162905a7911a0a5ed6d827b51"
+        },
+        "icon.svg": {
+          "size": 410,
+          "sha256": "dd8e6ed8582c530be69a4db3ca4e99d886095fa01fcc7d26bdc22cb066b26bfe"
+        }
+      },
+      "updatedAt": "2026-09-09T14:20:41.000Z"
+    },
+    {
+      "id": "timestamp-inserter",
+      "name": "Zeitstempel / Timestamp Inserter",
+      "version": "1.0.0",
+      "description": "Fügt konfigurierbare Datums-/Zeitstempel an der Cursorposition ein. Inserts configurable date/time stamps at the cursor.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "timestamp",
+        "zeitstempel",
+        "date",
+        "datum",
+        "time",
+        "insert",
+        "jetzt"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/timestamp-inserter",
+      "files": {
+        "main.js": {
+          "size": 17994,
+          "sha256": "9d41a32a8c2f0a8f49dc7ded4b5760c56c135cb480eb7e2b53a46299825a6c8f"
+        },
+        "README.md": {
+          "size": 4783,
+          "sha256": "6a9ef8758116ff99b7a0783fd04d481ef96b54caf8434566c422f16ab8258e20"
+        },
+        "icon.svg": {
+          "size": 316,
+          "sha256": "adc31b69fb0cc7ec51a0ad860e649907e9619a6160c48f8ba199acc5d2a70ff9"
+        }
+      },
+      "updatedAt": "2026-09-09T14:20:57.000Z"
+    },
+    {
+      "id": "unlinked-mentions",
+      "name": "Unverlinkte Erwähnungen / Unlinked Mentions",
+      "version": "1.0.0",
+      "description": "Findet Klartext-Erwähnungen anderer Notiztitel ohne [[Wikilink]] und kann verlinken. Finds plain-text mentions of other note titles without [[wikilinks]] and can link them.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "notes:write",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "writing"
+      ],
+      "keywords": [
+        "unlinked",
+        "erwähnt",
+        "mention",
+        "wikilink",
+        "plaintext",
+        "verlinken"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/unlinked-mentions",
+      "files": {
+        "main.js": {
+          "size": 33820,
+          "sha256": "d739fd7c4efa9548e7f5e1d45c755bcc4e1ab1b219b3b3cc50ba3b43f0bc5223"
+        },
+        "README.md": {
+          "size": 7565,
+          "sha256": "f56e41c2a7e3693b7c03f56fdb2fd3678fdb8828d0e5ab7c438587d4b9704ea2"
+        },
+        "icon.svg": {
+          "size": 343,
+          "sha256": "8e3a44d2b717762de56fb4f3ddd68c272b84395e4de0e5f125cc6bd1415a0bce"
+        }
+      },
+      "updatedAt": "2026-09-09T14:21:06.000Z"
+    },
+    {
+      "id": "url-collector",
+      "name": "Link-Sammler / URL Collector",
+      "version": "1.0.0",
+      "description": "Sammelt https-Links aus Notizen zum Kopieren oder Öffnen. Collects https links from notes to copy or open.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage",
+        "clipboard"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "school",
+        "writing"
+      ],
+      "keywords": [
+        "url",
+        "link",
+        "http",
+        "https",
+        "sources",
+        "quellen",
+        "collector"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/url-collector",
+      "files": {
+        "main.js": {
+          "size": 26044,
+          "sha256": "fa2ac1beb6fa89d1ef7d567ed450a4dd559ffee078f832e7b59f6b5ec2557c4f"
+        },
+        "README.md": {
+          "size": 7279,
+          "sha256": "3aef3d06b0a6a9808f39cd5f5a74cf944a7182059c2c7b5eb086022f1a1992af"
+        },
+        "icon.svg": {
+          "size": 315,
+          "sha256": "6b4b30098227281b0033ca2a11da838cfadc67498a05093b3ffef7a844c35540"
+        }
+      },
+      "updatedAt": "2026-09-09T14:21:15.000Z"
+    },
+    {
+      "id": "vocab-cards",
+      "name": "Vokabelkarten / Vocab Cards",
+      "version": "1.0.0",
+      "description": "Baut Vokabelkarten aus Markdown-Tabellen oder ‚Begriff — Übersetzung‘-Zeilen; Review mit Leicht/Schwer (SRS v1). Builds vocab cards from Markdown tables or ‘term — translation’ lines; review with Easy/Hard (SRS v1).",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "school",
+        "productivity"
+      ],
+      "keywords": [
+        "vokabel",
+        "vocab",
+        "karte",
+        "card",
+        "lernen",
+        "learn",
+        "srs",
+        "wiederholung",
+        "review",
+        "flashcard",
+        "schule",
+        "school"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/vocab-cards",
+      "files": {
+        "main.js": {
+          "size": 24942,
+          "sha256": "3f728097101425d219afeabad87ad607c6ce9204f9219a0c2b9349c120682e47"
+        },
+        "README.md": {
+          "size": 5627,
+          "sha256": "806da2e158d9c2405aa88b275153ca179d2ccd8788bfa2f8965fddf824ed77c4"
+        },
+        "icon.svg": {
+          "size": 347,
+          "sha256": "43478fb6ae1b581c4c871972b8e544f44f73fab0a3d52e7f39c3d5cc86bc9970"
+        }
+      },
+      "updatedAt": "2026-09-09T14:21:30.000Z"
+    },
+    {
+      "id": "weekly-digest",
+      "name": "Wochenrückblick / Weekly Digest",
+      "version": "1.0.0",
+      "description": "Wochennotiz mit geänderten Notizen + Fokusminuten (ISO-Woche). Weekly note with edited notes + focus minutes (ISO week).",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "notes:write",
+        "stats:read",
+        "storage",
+        "vault:write"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "statistics",
+        "writing"
+      ],
+      "keywords": [
+        "digest",
+        "woche",
+        "weekly",
+        "review",
+        "rückblick",
+        "fokus",
+        "stats",
+        "week"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/weekly-digest",
+      "files": {
+        "main.js": {
+          "size": 24897,
+          "sha256": "a0ac5c7aead33e6044deccb0def556bad0384ea23c843c9baff0363c5e13fa74"
+        },
+        "README.md": {
+          "size": 6116,
+          "sha256": "e4d4a0d9252b73ffe2e4d39570058133866443c5f914766077ef06fc4323e655"
+        },
+        "icon.svg": {
+          "size": 426,
+          "sha256": "affaaaef74dfac1ad8cf05a9c0996313d901768ea307334dfa419b35a0ce93c0"
+        }
+      },
+      "updatedAt": "2026-09-09T14:21:48.000Z"
+    },
+    {
+      "id": "wikilink-map",
+      "name": "Wikilink-Karte / Wikilink Map",
+      "version": "1.0.0",
+      "description": "Zeigt Backlinks, ausgehende Wikilinks und fehlende Ziele der aktiven Notiz; Index bis maxNotes, fehlende Notizen nach Bestätigung anlegen. Shows backlinks, outgoing wikilinks and missing targets for the active note; indexes up to maxNotes and creates missing notes after confirm.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "notes:write",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "writing"
+      ],
+      "keywords": [
+        "wikilink",
+        "backlink",
+        "rücklink",
+        "karte",
+        "map",
+        "links",
+        "fehlend",
+        "missing",
+        "notizen",
+        "notes",
+        "index",
+        "outgoing"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/wikilink-map",
+      "files": {
+        "main.js": {
+          "size": 25318,
+          "sha256": "feabab541f02255c69f3edb5a33c1e8aebb1dca8f0a710fe04c58ca82c2da00a"
+        },
+        "README.md": {
+          "size": 4965,
+          "sha256": "a05cc935cce961feb263ce5d56e9b5769bf65849f2e4f5aefb5dd93f025e5377"
+        },
+        "icon.svg": {
+          "size": 498,
+          "sha256": "67c53397ba468364da5124a7d52e0c2cc08e45993ae33df20fc4b2264c63a837"
+        }
+      },
+      "updatedAt": "2026-09-09T14:21:57.000Z"
+    },
+    {
+      "id": "wikilink-wrap",
+      "name": "Wikilink-Umbruch / Wikilink Wrap",
+      "version": "1.0.0",
+      "description": "Umhüllt die Auswahl als [[Wikilink]] und kann fehlende Notizen anlegen. Wraps the selection as a [[wikilink]] and can create missing notes.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "notes:read",
+        "notes:write",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "wikilink",
+        "wrap",
+        "link",
+        "alias",
+        "verlinken",
+        "klammer",
+        "brackets",
+        "umbruch",
+        "selection",
+        "auswahl"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/wikilink-wrap",
+      "files": {
+        "main.js": {
+          "size": 20752,
+          "sha256": "9cedad68e650ccdf7cb6672d8f47c98c9af565442dd7680a15d15a2f6fbaa2d3"
+        },
+        "README.md": {
+          "size": 6280,
+          "sha256": "ad2848797a6e89168c909fe07430a55587adc5ef85ca24b803690f759fd3d288"
+        },
+        "icon.svg": {
+          "size": 278,
+          "sha256": "6884828d46e3fb16cef220e12ff4a614ec1601f8fb76705563fdd34eef40eeb2"
+        }
+      },
+      "updatedAt": "2026-09-09T14:22:08.000Z"
+    },
+    {
+      "id": "word-counter",
+      "name": "Wortzähler / Word Counter",
+      "version": "1.0.0",
+      "description": "Zählt Wörter, Zeichen, Zeilen und Lesezeit der Auswahl oder der ganzen Notiz / Counts words, characters, lines and reading time for the selection or whole note.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "notes:read"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "statistics"
+      ],
+      "keywords": [
+        "wörter",
+        "words",
+        "zeichen",
+        "characters",
+        "zählen",
+        "count",
+        "lesezeit",
+        "reading-time",
+        "zeilen",
+        "lines",
+        "statistik",
+        "statistics"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/word-counter",
+      "files": {
+        "main.js": {
+          "size": 10277,
+          "sha256": "79381d99a430b9d55d70996c9e2bb8eae55edc8713b01dd5f43a2041121bd540"
+        },
+        "README.md": {
+          "size": 4106,
+          "sha256": "292a4b9a3b233c74748384699534b9afeae007d015befa8ee33427dde37e41c9"
+        },
+        "icon.svg": {
+          "size": 398,
+          "sha256": "c5903c30bea69670d7afd934e34da904f82b3d96bca86c1f3a7f704a70d4a955"
+        }
+      },
+      "updatedAt": "2026-09-09T14:22:17.000Z"
+    },
+    {
+      "id": "writing-streak",
+      "name": "Schreib-Serie / Writing Streak",
+      "version": "1.0.0",
+      "description": "Zeigt Schreib- und Stift-Serie aus den Seitenstatistiken: Streak-Tage, Fokuszeit und Wochenziel. Shows typing and pen streak from page stats: streak days, focus time and weekly goal.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "stats:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "statistics",
+        "productivity",
+        "handwriting"
+      ],
+      "keywords": [
+        "streak",
+        "serie",
+        "fokus",
+        "focus",
+        "schreiben",
+        "writing",
+        "stift",
+        "ink",
+        "ziel",
+        "goal",
+        "handschrift",
+        "handwriting"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/writing-streak",
+      "files": {
+        "main.js": {
+          "size": 21197,
+          "sha256": "f34720e1f7226bc7402416f5980fdb15eaf1fe5b23f8a06b4c6a71ae52426c86"
+        },
+        "README.md": {
+          "size": 6322,
+          "sha256": "6408816d146a619f78a8cb645815a409cbb50977dcba1b7427242daa7c367465"
+        },
+        "icon.svg": {
+          "size": 378,
+          "sha256": "66e32f95597b0780384e62f02d41d67ef98a5c3f244665250aea17be7936dbc2"
+        }
+      },
+      "updatedAt": "2026-09-09T14:22:26.000Z"
     }
   ]
 }
