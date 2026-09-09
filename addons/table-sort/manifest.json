@@ -1,0 +1,36 @@
+{
+  "id": "table-sort",
+  "name": "Tabellen sortieren / Table Sort",
+  "version": "1.0.0",
+  "description": "Sortiert die Markdown-Tabelle unter dem Cursor nach einer Spalte. Sorts the Markdown table under the cursor by a column.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "productivity",
+    "school"
+  ],
+  "keywords": [
+    "table",
+    "tabelle",
+    "sort",
+    "sortieren",
+    "markdown",
+    "column",
+    "spalte",
+    "grid"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
