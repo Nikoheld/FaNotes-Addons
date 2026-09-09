@@ -1,0 +1,39 @@
+{
+  "id": "vocab-cards",
+  "name": "Vokabelkarten / Vocab Cards",
+  "version": "1.0.0",
+  "description": "Baut Vokabelkarten aus Markdown-Tabellen oder ‚Begriff — Übersetzung‘-Zeilen; Review mit Leicht/Schwer (SRS v1). Builds vocab cards from Markdown tables or ‘term — translation’ lines; review with Easy/Hard (SRS v1).",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "school",
+    "productivity"
+  ],
+  "keywords": [
+    "vokabel",
+    "vocab",
+    "karte",
+    "card",
+    "lernen",
+    "learn",
+    "srs",
+    "wiederholung",
+    "review",
+    "flashcard",
+    "schule",
+    "school"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
