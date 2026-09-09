@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T16:25:17.177Z",
-  "count": 64,
+  "generatedAt": "2026-09-09T16:39:40.333Z",
+  "count": 65,
   "addons": [
     {
       "id": "append-to-daily",
@@ -823,6 +823,59 @@
         }
       },
       "updatedAt": "2026-09-09T14:16:17.000Z"
+    },
+    {
+      "id": "footnote-tools",
+      "name": "Fußnoten-Werkzeuge / Footnote Tools",
+      "version": "1.0.0",
+      "description": "Fügt Fußnoten-Marker ein und listet Definitionen in der Notiz. Inserts footnote markers and lists definitions in the note.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "notes:read",
+        "storage",
+        "clipboard"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "school"
+      ],
+      "keywords": [
+        "footnote",
+        "fußnote",
+        "reference",
+        "referenz",
+        "markdown",
+        "cite",
+        "endnote",
+        "einfügen"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/footnote-tools",
+      "files": {
+        "main.js": {
+          "size": 24941,
+          "sha256": "2de14f05de346bf55829c515fcdd1fa7ceed2a3c6b94cbb068e4cbd63d96269a"
+        },
+        "README.md": {
+          "size": 5323,
+          "sha256": "3848b00bd5ba01b6809d15ce209f99fcf17fde8709bdb7bc0b70ef0d3ba5cbe5"
+        },
+        "icon.svg": {
+          "size": 399,
+          "sha256": "508df288223c1685a6e0dfc42f5ecd3a42a63f423b4fc6440d535f315f7803db"
+        }
+      },
+      "updatedAt": "2026-09-09T16:39:30.000Z"
     },
     {
       "id": "habit-checklist",
