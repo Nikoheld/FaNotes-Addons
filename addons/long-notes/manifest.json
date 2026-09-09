@@ -1,0 +1,35 @@
+{
+  "id": "long-notes",
+  "name": "Lange Notizen / Long Notes",
+  "version": "1.0.0",
+  "description": "Findet sehr lange Markdown-Notizen nach Zeichenlänge – Kandidaten zum Teilen. Finds very long Markdown notes by character length – split candidates.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "statistics",
+    "writing"
+  ],
+  "keywords": [
+    "long",
+    "lang",
+    "size",
+    "chars",
+    "words",
+    "bulky",
+    "split-candidate"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
