@@ -1,0 +1,35 @@
+{
+  "id": "indent-tools",
+  "name": "Einrücken / Indent Tools",
+  "version": "1.0.0",
+  "description": "Rückt markierte Zeilen um Spaces ein oder aus. Indents or outdents selected lines by spaces.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "productivity"
+  ],
+  "keywords": [
+    "indent",
+    "einrücken",
+    "outdent",
+    "ausrücken",
+    "tab",
+    "spaces",
+    "zeilen",
+    "editor"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
