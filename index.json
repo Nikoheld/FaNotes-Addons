@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T14:28:45.176Z",
-  "count": 56,
+  "generatedAt": "2026-09-09T14:30:42.210Z",
+  "count": 57,
   "addons": [
     {
       "id": "append-to-daily",
@@ -2237,6 +2237,57 @@
         }
       },
       "updatedAt": "2026-09-09T14:20:07.000Z"
+    },
+    {
+      "id": "strip-markdown",
+      "name": "Markdown entfernen / Strip Markdown",
+      "version": "1.0.0",
+      "description": "Entfernt gängige Markdown-Markierung aus der Auswahl (optional nur kopieren). Strips common Markdown markup from the selection (optionally copy only).",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage",
+        "clipboard"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "export"
+      ],
+      "keywords": [
+        "strip",
+        "plain",
+        "text",
+        "markdown",
+        "entfernen",
+        "clean",
+        "clipboard"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/strip-markdown",
+      "files": {
+        "main.js": {
+          "size": 14319,
+          "sha256": "ad3ef06202376411f54fb816d0196069b04004d649b6c3b45d69afd04185647c"
+        },
+        "README.md": {
+          "size": 5908,
+          "sha256": "8c995aedb3ebe63039dddbacb7db681eb4c2ee4845628ff6f16bd7ff1b7f85ee"
+        },
+        "icon.svg": {
+          "size": 283,
+          "sha256": "8c397849bc6ef1ff6c1cf2626f1cada74064347a21bb65829a7d11b74d667f4d"
+        }
+      },
+      "updatedAt": "2026-09-09T14:30:26.000Z"
     },
     {
       "id": "table-inserter",
