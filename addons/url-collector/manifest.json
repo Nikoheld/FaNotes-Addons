@@ -1,0 +1,36 @@
+{
+  "id": "url-collector",
+  "name": "Link-Sammler / URL Collector",
+  "version": "1.0.0",
+  "description": "Sammelt https-Links aus Notizen zum Kopieren oder Öffnen. Collects https links from notes to copy or open.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage",
+    "clipboard"
+  ],
+  "categories": [
+    "productivity",
+    "school",
+    "writing"
+  ],
+  "keywords": [
+    "url",
+    "link",
+    "http",
+    "https",
+    "sources",
+    "quellen",
+    "collector"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
