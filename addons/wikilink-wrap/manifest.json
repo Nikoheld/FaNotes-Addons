@@ -1,0 +1,39 @@
+{
+  "id": "wikilink-wrap",
+  "name": "Wikilink-Umbruch / Wikilink Wrap",
+  "version": "1.0.0",
+  "description": "Umhüllt die Auswahl als [[Wikilink]] und kann fehlende Notizen anlegen. Wraps the selection as a [[wikilink]] and can create missing notes.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "notes:read",
+    "notes:write",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "productivity"
+  ],
+  "keywords": [
+    "wikilink",
+    "wrap",
+    "link",
+    "alias",
+    "verlinken",
+    "klammer",
+    "brackets",
+    "umbruch",
+    "selection",
+    "auswahl"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
