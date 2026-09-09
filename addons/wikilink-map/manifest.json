@@ -1,0 +1,40 @@
+{
+  "id": "wikilink-map",
+  "name": "Wikilink-Karte / Wikilink Map",
+  "version": "1.0.0",
+  "description": "Zeigt Backlinks, ausgehende Wikilinks und fehlende Ziele der aktiven Notiz; Index bis maxNotes, fehlende Notizen nach Bestätigung anlegen. Shows backlinks, outgoing wikilinks and missing targets for the active note; indexes up to maxNotes and creates missing notes after confirm.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "notes:write",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "writing"
+  ],
+  "keywords": [
+    "wikilink",
+    "backlink",
+    "rücklink",
+    "karte",
+    "map",
+    "links",
+    "fehlend",
+    "missing",
+    "notizen",
+    "notes",
+    "index",
+    "outgoing"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
