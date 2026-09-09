@@ -1,0 +1,39 @@
+{
+  "id": "weekly-digest",
+  "name": "Wochenrückblick / Weekly Digest",
+  "version": "1.0.0",
+  "description": "Wochennotiz mit geänderten Notizen + Fokusminuten (ISO-Woche). Weekly note with edited notes + focus minutes (ISO week).",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "notes:write",
+    "stats:read",
+    "storage",
+    "vault:write"
+  ],
+  "categories": [
+    "productivity",
+    "statistics",
+    "writing"
+  ],
+  "keywords": [
+    "digest",
+    "woche",
+    "weekly",
+    "review",
+    "rückblick",
+    "fokus",
+    "stats",
+    "week"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
