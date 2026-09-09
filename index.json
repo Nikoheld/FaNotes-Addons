@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T16:42:27.033Z",
-  "count": 66,
+  "generatedAt": "2026-09-09T16:46:14.922Z",
+  "count": 67,
   "addons": [
     {
       "id": "append-to-daily",
@@ -156,6 +156,60 @@
         }
       },
       "updatedAt": "2026-09-09T14:28:33.000Z"
+    },
+    {
+      "id": "broken-embeds",
+      "name": "Kaputte Einbettungen / Broken Embeds",
+      "version": "1.0.0",
+      "description": "Findet Bild-/PDF-Einbettungen deren Zieldatei im Vault fehlt. Finds image/PDF embeds whose target file is missing in the vault.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "school",
+        "writing"
+      ],
+      "keywords": [
+        "embed",
+        "broken",
+        "kaputt",
+        "image",
+        "pdf",
+        "missing",
+        "media",
+        "link",
+        "fehlt",
+        "einbettung"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/broken-embeds",
+      "files": {
+        "main.js": {
+          "size": 28662,
+          "sha256": "63835cfd1b76717a4a4a6a6aaa61d4362a89e70ef22fe227fc43b9810dedd989"
+        },
+        "README.md": {
+          "size": 7798,
+          "sha256": "08731939e2edae167249dcc4a97b6c016f4f4a12a82e4d72ebce27ed8841b618"
+        },
+        "icon.svg": {
+          "size": 334,
+          "sha256": "3c19e4e68f91c2defa912181a41263dce1526df82f475498a81feaf16000f64c"
+        }
+      },
+      "updatedAt": "2026-09-09T16:46:03.000Z"
     },
     {
       "id": "callout-inserter",
