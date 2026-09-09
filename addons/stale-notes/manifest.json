@@ -1,0 +1,39 @@
+{
+  "id": "stale-notes",
+  "name": "Veraltete Notizen / Stale Notes",
+  "version": "1.0.0",
+  "description": "Notizen nach modifiedAt-Alter: Schwelle, Ordner, älteste zuerst. Notes by modifiedAt age: threshold, folder, oldest first.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "statistics"
+  ],
+  "keywords": [
+    "stale",
+    "veraltet",
+    "idle",
+    "untouched",
+    "review",
+    "alt",
+    "aging",
+    "notizen",
+    "notes",
+    "modified",
+    "schwelle",
+    "älteste"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
