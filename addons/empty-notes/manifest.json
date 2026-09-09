@@ -1,0 +1,37 @@
+{
+  "id": "empty-notes",
+  "name": "Leere Notizen / Empty Notes",
+  "version": "1.0.0",
+  "description": "Findet leere oder sehr kurze Markdown-Notizen zum Aufräumen. Finds empty or very short Markdown notes for cleanup.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "writing"
+  ],
+  "keywords": [
+    "empty",
+    "leer",
+    "blank",
+    "short",
+    "aufräumen",
+    "cleanup",
+    "placeholder",
+    "notizen",
+    "notes",
+    "kurz"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
