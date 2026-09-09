@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T15:03:08.040Z",
-  "count": 63,
+  "generatedAt": "2026-09-09T16:25:17.177Z",
+  "count": 64,
   "addons": [
     {
       "id": "append-to-daily",
@@ -2748,6 +2748,59 @@
         }
       },
       "updatedAt": "2026-09-08T18:39:41.000Z"
+    },
+    {
+      "id": "task-sink",
+      "name": "Erledigte nach unten / Task Sink",
+      "version": "1.0.0",
+      "description": "Verschiebt erledigte Aufgaben-Checkboxen in der Notiz nach unten. Moves completed task checkboxes to the bottom of the note.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "notes:read",
+        "notes:write",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "productivity",
+        "school"
+      ],
+      "keywords": [
+        "task",
+        "erledigt",
+        "done",
+        "sink",
+        "checkbox",
+        "sort",
+        "unten",
+        "checklist"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/task-sink",
+      "files": {
+        "main.js": {
+          "size": 13873,
+          "sha256": "ae45143d0dca702a80345e08a23d7ca434b66863e361a0471f4da4fad11645c1"
+        },
+        "README.md": {
+          "size": 6652,
+          "sha256": "369c8efeb18cf7b59a1b43d3e29a5ec41ceb6eca5404ac2670e80ce69b9d0467"
+        },
+        "icon.svg": {
+          "size": 375,
+          "sha256": "0f7ed97b82e19bff9ef985b17c05c3aaf72259673ff92dfcff7ae865308a59ad"
+        }
+      },
+      "updatedAt": "2026-09-09T16:25:05.000Z"
     },
     {
       "id": "template-library",
