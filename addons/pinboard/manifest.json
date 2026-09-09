@@ -1,0 +1,40 @@
+{
+  "id": "pinboard",
+  "name": "Pinnwand / Pinboard",
+  "version": "1.0.0",
+  "description": "Heftet Notizen und Textauswahl an eine Pinnwand (max. 50); öffnen, einfügen, kopieren, sortieren. Pins notes and text selections to a board (max 50); open, insert, copy, reorder.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "editor",
+    "storage",
+    "clipboard"
+  ],
+  "categories": [
+    "productivity"
+  ],
+  "keywords": [
+    "pinnwand",
+    "pinboard",
+    "pin",
+    "anheften",
+    "notiz",
+    "note",
+    "auswahl",
+    "selection",
+    "zwischenablage",
+    "clipboard",
+    "merken",
+    "bookmark"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
