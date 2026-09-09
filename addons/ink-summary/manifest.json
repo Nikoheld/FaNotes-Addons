@@ -1,0 +1,36 @@
+{
+  "id": "ink-summary",
+  "name": "Tinten-Übersicht / Ink Summary",
+  "version": "1.0.0",
+  "description": "Zeigt Stift-Statistik der aktiven Notiz (Striche, Zeit, Farben). Shows pen stats for the active note (strokes, time, colors).",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "stats:read",
+    "ink:read",
+    "storage"
+  ],
+  "categories": [
+    "handwriting",
+    "statistics"
+  ],
+  "keywords": [
+    "ink",
+    "tinte",
+    "stift",
+    "handwriting",
+    "strokes",
+    "pen",
+    "zeichnen"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
