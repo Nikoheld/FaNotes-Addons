@@ -1,0 +1,37 @@
+{
+  "id": "task-sink",
+  "name": "Erledigte nach unten / Task Sink",
+  "version": "1.0.0",
+  "description": "Verschiebt erledigte Aufgaben-Checkboxen in der Notiz nach unten. Moves completed task checkboxes to the bottom of the note.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "notes:read",
+    "notes:write",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "school"
+  ],
+  "keywords": [
+    "task",
+    "erledigt",
+    "done",
+    "sink",
+    "checkbox",
+    "sort",
+    "unten",
+    "checklist"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
