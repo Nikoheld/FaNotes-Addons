@@ -1,0 +1,35 @@
+{
+  "id": "list-convert",
+  "name": "Listen-Umwandler / List Convert",
+  "version": "1.0.0",
+  "description": "Wandelt markierte Zeilen in Aufzählung, Nummerierung oder Aufgabenliste um. Converts selected lines into bullets, numbers or task lists.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "productivity"
+  ],
+  "keywords": [
+    "list",
+    "liste",
+    "bullet",
+    "numbered",
+    "task",
+    "checkbox",
+    "convert",
+    "umwandeln"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
