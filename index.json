@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T16:58:31.863Z",
-  "count": 68,
+  "generatedAt": "2026-09-09T17:00:02.240Z",
+  "count": 69,
   "addons": [
     {
       "id": "append-to-daily",
@@ -1905,6 +1905,60 @@
         }
       },
       "updatedAt": "2026-09-08T18:39:41.000Z"
+    },
+    {
+      "id": "number-lines",
+      "name": "Zeilen nummerieren / Number Lines",
+      "version": "1.0.0",
+      "description": "Nummeriert markierte Zeilen mit laufendem Präfix (1. 2. 3.). Numbers selected lines with a running prefix (1. 2. 3.).",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "school",
+        "developer"
+      ],
+      "keywords": [
+        "number",
+        "nummerieren",
+        "nummern",
+        "lines",
+        "zeilen",
+        "list",
+        "liste",
+        "prefix",
+        "präfix",
+        "editor"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/number-lines",
+      "files": {
+        "main.js": {
+          "size": 12614,
+          "sha256": "df3f991f278a2e8dfd525e90f63cf54c58cecb57fa3aa8057e6d2ff37ec078c6"
+        },
+        "README.md": {
+          "size": 5519,
+          "sha256": "fb40add3975cebdb39331798c03c647eac4f5f9c42daa53a0410323b77cfecc4"
+        },
+        "icon.svg": {
+          "size": 327,
+          "sha256": "72461753bfe6cd4b4e75520ab42278f57460e8bcc9d969214acddddd1e960980"
+        }
+      },
+      "updatedAt": "2026-09-09T16:59:32.000Z"
     },
     {
       "id": "orphan-notes",
