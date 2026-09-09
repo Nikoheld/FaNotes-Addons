@@ -1,0 +1,35 @@
+{
+  "id": "blank-line-squeeze",
+  "name": "Leerzeilen-Druck / Blank Line Squeeze",
+  "version": "1.0.0",
+  "description": "Reduziert mehrfache Leerzeilen in der Auswahl auf höchstens eine. Collapses multiple blank lines in the selection to at most one.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "productivity"
+  ],
+  "keywords": [
+    "blank",
+    "leerzeilen",
+    "squeeze",
+    "collapse",
+    "whitespace",
+    "tidy",
+    "markdown",
+    "zusammenziehen"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
