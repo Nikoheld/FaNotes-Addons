@@ -1,0 +1,38 @@
+{
+  "id": "number-lines",
+  "name": "Zeilen nummerieren / Number Lines",
+  "version": "1.0.0",
+  "description": "Nummeriert markierte Zeilen mit laufendem Präfix (1. 2. 3.). Numbers selected lines with a running prefix (1. 2. 3.).",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "school",
+    "developer"
+  ],
+  "keywords": [
+    "number",
+    "nummerieren",
+    "nummern",
+    "lines",
+    "zeilen",
+    "list",
+    "liste",
+    "prefix",
+    "präfix",
+    "editor"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
