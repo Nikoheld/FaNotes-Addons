@@ -1,0 +1,35 @@
+{
+  "id": "find-replace-note",
+  "name": "Suchen & Ersetzen / Find Replace Note",
+  "version": "1.0.0",
+  "description": "Sucht und ersetzt Text in der offenen Notiz (einmal oder alle). Finds and replaces text in the open note (once or all).",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "notes:read",
+    "notes:write",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "productivity"
+  ],
+  "keywords": [
+    "find",
+    "replace",
+    "suchen",
+    "ersetzen",
+    "note",
+    "editor"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
