@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T17:00:02.240Z",
-  "count": 69,
+  "generatedAt": "2026-09-09T17:24:59.730Z",
+  "count": 70,
   "addons": [
     {
       "id": "append-to-daily",
@@ -2340,6 +2340,63 @@
         }
       },
       "updatedAt": "2026-09-09T14:19:06.000Z"
+    },
+    {
+      "id": "reading-time",
+      "name": "Lesezeit / Reading Time",
+      "version": "1.0.0",
+      "description": "Schätzt die Lesezeit der aktiven Notiz oder Auswahl in Minuten. Estimates reading time of the active note or selection in minutes.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "notes:read",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "statistics",
+        "writing",
+        "school"
+      ],
+      "keywords": [
+        "reading",
+        "lesezeit",
+        "wpm",
+        "words",
+        "minutes",
+        "estimate",
+        "zeit",
+        "minuten",
+        "wörter",
+        "schätzen",
+        "notiz",
+        "selection"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/reading-time",
+      "files": {
+        "main.js": {
+          "size": 19691,
+          "sha256": "3baccd9adeef67f7452694c38cb4bdc1c694160d99cd50ca8c6c9d81996e83e7"
+        },
+        "README.md": {
+          "size": 5124,
+          "sha256": "acccb1a9162e0472bed57dbca98f25484dfcb796f37db0cbe58d8416062c93ff"
+        },
+        "icon.svg": {
+          "size": 298,
+          "sha256": "7a94929a8b96ed6e7da6c8be6a6be56ed558214e058b9a956979b170a91d28b1"
+        }
+      },
+      "updatedAt": "2026-09-09T17:24:48.000Z"
     },
     {
       "id": "recently-created",
