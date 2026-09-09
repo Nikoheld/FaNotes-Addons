@@ -1,0 +1,41 @@
+{
+  "id": "reading-time",
+  "name": "Lesezeit / Reading Time",
+  "version": "1.0.0",
+  "description": "Schätzt die Lesezeit der aktiven Notiz oder Auswahl in Minuten. Estimates reading time of the active note or selection in minutes.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "statistics",
+    "writing",
+    "school"
+  ],
+  "keywords": [
+    "reading",
+    "lesezeit",
+    "wpm",
+    "words",
+    "minutes",
+    "estimate",
+    "zeit",
+    "minuten",
+    "wörter",
+    "schätzen",
+    "notiz",
+    "selection"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
