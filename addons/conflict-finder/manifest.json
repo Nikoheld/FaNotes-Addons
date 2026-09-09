@@ -1,0 +1,36 @@
+{
+  "id": "conflict-finder",
+  "name": "Konflikt-Marker / Conflict Finder",
+  "version": "1.0.0",
+  "description": "Findet Git-Merge-Konfliktmarker in Markdown-Notizen. Finds Git merge conflict markers in Markdown notes.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "developer",
+    "productivity"
+  ],
+  "keywords": [
+    "conflict",
+    "konflikt",
+    "git",
+    "merge",
+    "markers",
+    "marker",
+    "hygiene",
+    "scannen",
+    "scan"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
