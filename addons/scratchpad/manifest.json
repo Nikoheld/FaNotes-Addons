@@ -1,0 +1,36 @@
+{
+  "id": "scratchpad",
+  "name": "Notizzettel / Scratchpad",
+  "version": "1.0.0",
+  "description": "Notizzettel (max. 100000 Zeichen): Text parken, einfügen, kopieren, Auswahl anhängen. Scratchpad (max 100000 chars): park text, insert, copy, or append selection.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage",
+    "clipboard"
+  ],
+  "categories": [
+    "productivity",
+    "writing"
+  ],
+  "keywords": [
+    "scratch",
+    "notizzettel",
+    "parkplatz",
+    "draft",
+    "zwischenablage",
+    "clipboard",
+    "note",
+    "zettel"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
