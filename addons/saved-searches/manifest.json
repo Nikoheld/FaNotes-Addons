@@ -1,0 +1,37 @@
+{
+  "id": "saved-searches",
+  "name": "Gespeicherte Suchen / Saved Searches",
+  "version": "1.0.0",
+  "description": "Gespeicherte Suchanfragen speichern und erneut ausführen (Vault-Volltext). Save and re-run vault full-text searches.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "writing"
+  ],
+  "keywords": [
+    "suche",
+    "search",
+    "saved",
+    "gespeichert",
+    "query",
+    "find",
+    "filter",
+    "vault",
+    "notiz",
+    "note"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
