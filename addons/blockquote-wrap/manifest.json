@@ -1,0 +1,34 @@
+{
+  "id": "blockquote-wrap",
+  "name": "Zitat-Umbruch / Blockquote Wrap",
+  "version": "1.0.0",
+  "description": "Stellt markierte Zeilen als Markdown-Blockzitat mit > vor. Prefixes selected lines as a Markdown blockquote with >.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "productivity"
+  ],
+  "keywords": [
+    "blockquote",
+    "zitat",
+    "quote",
+    "wrap",
+    "markdown",
+    "prefix",
+    "umbruch"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
