@@ -1,0 +1,36 @@
+{
+  "id": "random-note",
+  "name": "Zufallsnotiz / Random Note",
+  "version": "1.0.0",
+  "description": "Zufallsnotiz öffnen (gleichmäßig), Ordnerfilter, kürzlich meiden. Open a random note (uniform), folder filter, avoid recent.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "fun",
+    "writing"
+  ],
+  "keywords": [
+    "zufall",
+    "random",
+    "surprise",
+    "serendipity",
+    "review",
+    "entdecken",
+    "note",
+    "notiz"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
