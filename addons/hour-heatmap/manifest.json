@@ -1,0 +1,35 @@
+{
+  "id": "hour-heatmap",
+  "name": "Stunden-Heatmap / Hour Heatmap",
+  "version": "1.0.0",
+  "description": "Aggregiert Fokus-/Öffnungszeiten nach Tagesstunde aus der Seitenstatistik. Aggregates focus/open times by hour of day from page stats.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "stats:read",
+    "storage"
+  ],
+  "categories": [
+    "statistics",
+    "productivity"
+  ],
+  "keywords": [
+    "heatmap",
+    "stunden",
+    "hours",
+    "focus",
+    "dwell",
+    "opensByHour",
+    "chronotype"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
