@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T14:22:40.275Z",
-  "count": 55,
+  "generatedAt": "2026-09-09T14:28:45.176Z",
+  "count": 56,
   "addons": [
     {
       "id": "append-to-daily",
@@ -55,6 +55,56 @@
         }
       },
       "updatedAt": "2026-09-09T14:14:47.000Z"
+    },
+    {
+      "id": "blockquote-wrap",
+      "name": "Zitat-Umbruch / Blockquote Wrap",
+      "version": "1.0.0",
+      "description": "Stellt markierte Zeilen als Markdown-Blockzitat mit > vor. Prefixes selected lines as a Markdown blockquote with >.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "blockquote",
+        "zitat",
+        "quote",
+        "wrap",
+        "markdown",
+        "prefix",
+        "umbruch"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/blockquote-wrap",
+      "files": {
+        "main.js": {
+          "size": 12789,
+          "sha256": "ab52f46d0986c12c3b077457cff1d71d1bf4da41461ae0886952fb1d6e89a303"
+        },
+        "README.md": {
+          "size": 5976,
+          "sha256": "27110287e2c77084f6be6497b65685cfb3c67f2b9682d7c308505251d8016968"
+        },
+        "icon.svg": {
+          "size": 436,
+          "sha256": "a8e964408f3a1ff82ad7a4ec3ac53e44b0a77ad51f26dc1712a984ff46f9bfe4"
+        }
+      },
+      "updatedAt": "2026-09-09T14:28:33.000Z"
     },
     {
       "id": "callout-inserter",
