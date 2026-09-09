@@ -1,0 +1,35 @@
+{
+  "id": "path-copier",
+  "name": "Pfad kopieren / Path Copier",
+  "version": "1.0.0",
+  "description": "Kopiert Pfad, Titel oder Wikilink der aktiven Notiz in die Zwischenablage. Copies path, title or wikilink of the active note to the clipboard.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "clipboard",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "developer"
+  ],
+  "keywords": [
+    "path",
+    "pfad",
+    "copy",
+    "kopieren",
+    "title",
+    "wikilink",
+    "clipboard"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
