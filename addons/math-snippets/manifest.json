@@ -1,0 +1,39 @@
+{
+  "id": "math-snippets",
+  "name": "Formel-Schnipsel / Math Snippets",
+  "version": "1.0.0",
+  "description": "LaTeX-Formel-Schnipsel (Algebra, Analysis, Linear, Sonstiges) einfügen; eigene speichern; inline $…$ oder Display $$…$$. Insert LaTeX math snippets; save custom ones; wrap as inline or display math.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "school"
+  ],
+  "keywords": [
+    "formel",
+    "math",
+    "latex",
+    "schnipsel",
+    "snippet",
+    "algebra",
+    "analysis",
+    "bruch",
+    "fraction",
+    "integral",
+    "matrix",
+    "schule"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
