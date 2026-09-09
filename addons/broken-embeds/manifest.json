@@ -1,0 +1,38 @@
+{
+  "id": "broken-embeds",
+  "name": "Kaputte Einbettungen / Broken Embeds",
+  "version": "1.0.0",
+  "description": "Findet Bild-/PDF-Einbettungen deren Zieldatei im Vault fehlt. Finds image/PDF embeds whose target file is missing in the vault.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "school",
+    "writing"
+  ],
+  "keywords": [
+    "embed",
+    "broken",
+    "kaputt",
+    "image",
+    "pdf",
+    "missing",
+    "media",
+    "link",
+    "fehlt",
+    "einbettung"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
