@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T15:01:14.750Z",
-  "count": 62,
+  "generatedAt": "2026-09-09T15:03:08.040Z",
+  "count": 63,
   "addons": [
     {
       "id": "append-to-daily",
@@ -55,6 +55,57 @@
         }
       },
       "updatedAt": "2026-09-09T14:14:47.000Z"
+    },
+    {
+      "id": "blank-line-squeeze",
+      "name": "Leerzeilen-Druck / Blank Line Squeeze",
+      "version": "1.0.0",
+      "description": "Reduziert mehrfache Leerzeilen in der Auswahl auf höchstens eine. Collapses multiple blank lines in the selection to at most one.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "blank",
+        "leerzeilen",
+        "squeeze",
+        "collapse",
+        "whitespace",
+        "tidy",
+        "markdown",
+        "zusammenziehen"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/blank-line-squeeze",
+      "files": {
+        "main.js": {
+          "size": 13092,
+          "sha256": "248439cc6378ca70054b200876399e6aa50688ba865414b48156b8bccd90f6b7"
+        },
+        "README.md": {
+          "size": 6778,
+          "sha256": "9a331e848378d910aba4f69688f3c8a43b74fde8f53f366769754d4bb84af289"
+        },
+        "icon.svg": {
+          "size": 289,
+          "sha256": "35d461b9ba76a997a19a364d2bc3b11eebaacf1cb60de056cc1c2c47d0b36191"
+        }
+      },
+      "updatedAt": "2026-09-09T15:02:54.000Z"
     },
     {
       "id": "blockquote-wrap",
