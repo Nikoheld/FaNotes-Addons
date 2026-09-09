@@ -1,0 +1,34 @@
+{
+  "id": "unlinked-mentions",
+  "name": "Unverlinkte Erwähnungen / Unlinked Mentions",
+  "version": "1.0.0",
+  "description": "Findet Klartext-Erwähnungen anderer Notiztitel ohne [[Wikilink]] und kann verlinken. Finds plain-text mentions of other note titles without [[wikilinks]] and can link them.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "notes:write",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "writing"
+  ],
+  "keywords": [
+    "unlinked",
+    "erwähnt",
+    "mention",
+    "wikilink",
+    "plaintext",
+    "verlinken"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
