@@ -1,0 +1,34 @@
+{
+  "id": "table-inserter",
+  "name": "Tabellen-Einfüger / Table Inserter",
+  "version": "1.0.0",
+  "description": "Fügt eine leere Markdown-Tabelle mit wählbaren Zeilen/Spalten ein. Inserts an empty Markdown table with chosen rows and columns.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "school"
+  ],
+  "keywords": [
+    "table",
+    "tabelle",
+    "markdown",
+    "grid",
+    "rows",
+    "columns",
+    "insert"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
