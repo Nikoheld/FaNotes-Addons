@@ -1,0 +1,41 @@
+{
+  "id": "template-library",
+  "name": "Vorlagen-Bibliothek / Template Library",
+  "version": "1.0.0",
+  "description": "CRUD für Textvorlagen; Einfügen mit {{date}}/{{time}}/{{title}}/{{selection}}. Manages templates and inserts them with date, time, title and selection placeholders.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "editor",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "writing",
+    "productivity",
+    "school"
+  ],
+  "keywords": [
+    "vorlage",
+    "template",
+    "bibliothek",
+    "library",
+    "einfügen",
+    "insert",
+    "platzhalter",
+    "placeholder",
+    "protokoll",
+    "hausaufgabe",
+    "homework",
+    "wochenplan"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
