@@ -1,0 +1,31 @@
+{
+  "id": "word-counter",
+  "name": "Wortzähler / Word Counter",
+  "version": "1.0.0",
+  "description": "Zählt Wörter, Zeichen, Zeilen und Lesezeit der Auswahl oder der ganzen Notiz / Counts words, characters, lines and reading time for the selection or whole note.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": ["commands", "ui", "editor", "notes:read"],
+  "categories": ["writing", "statistics"],
+  "keywords": [
+    "wörter",
+    "words",
+    "zeichen",
+    "characters",
+    "zählen",
+    "count",
+    "lesezeit",
+    "reading-time",
+    "zeilen",
+    "lines",
+    "statistik",
+    "statistics"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
