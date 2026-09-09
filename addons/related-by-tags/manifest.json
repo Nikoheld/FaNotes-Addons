@@ -1,0 +1,37 @@
+{
+  "id": "related-by-tags",
+  "name": "Verwandte per Tag / Related by Tags",
+  "version": "1.0.0",
+  "description": "Findet verwandte Notizen über gemeinsame #Hashtags (Überlappung); Panel, Cache, optional Status. Finds related notes via shared #hashtags (overlap); panel, cache, optional status.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "productivity",
+    "writing",
+    "school"
+  ],
+  "keywords": [
+    "tags",
+    "verwandt",
+    "related",
+    "hashtag",
+    "#",
+    "links",
+    "ähnlich",
+    "similar",
+    "overlap"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
