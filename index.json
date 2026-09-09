@@ -2,8 +2,8 @@
   "schema": 1,
   "repository": "Nikoheld/FaNotes-Addons",
   "branch": "main",
-  "generatedAt": "2026-09-09T14:33:15.601Z",
-  "count": 58,
+  "generatedAt": "2026-09-09T14:40:36.850Z",
+  "count": 59,
   "addons": [
     {
       "id": "append-to-daily",
@@ -1072,6 +1072,57 @@
         }
       },
       "updatedAt": "2026-09-09T14:17:06.000Z"
+    },
+    {
+      "id": "join-split-lines",
+      "name": "Zeilen verbinden/trennen / Join Split Lines",
+      "version": "1.0.0",
+      "description": "Verbindet markierte Zeilen oder trennt die Auswahl an einem Trenner. Joins selected lines or splits the selection on a separator.",
+      "author": {
+        "name": "FaNotes Addon Production",
+        "url": "https://github.com/Nikoheld/FaNotes-Addons"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+      "api": 1,
+      "permissions": [
+        "commands",
+        "ui",
+        "editor",
+        "storage"
+      ],
+      "networkHosts": [],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "keywords": [
+        "join",
+        "split",
+        "zeilen",
+        "lines",
+        "separator",
+        "verbinden",
+        "trennen",
+        "editor"
+      ],
+      "icon": "icon.svg",
+      "path": "addons/join-split-lines",
+      "files": {
+        "main.js": {
+          "size": 13470,
+          "sha256": "83bdf68b890a5b0f5d15c4aacfad76db64b58849462ee1873cec1121f8d76ccc"
+        },
+        "README.md": {
+          "size": 5777,
+          "sha256": "761a8569ebccda11f3e21cb0652a2743a9faa4ad99c536bca948ccd2d9842b3d"
+        },
+        "icon.svg": {
+          "size": 282,
+          "sha256": "1bf3cae9096a8cdeaa8aaad76b3a2c4af1d2d3a2571882e23ed3e330dac87bc2"
+        }
+      },
+      "updatedAt": "2026-09-09T14:40:23.000Z"
     },
     {
       "id": "line-tools",
