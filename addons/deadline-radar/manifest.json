@@ -1,0 +1,39 @@
+{
+  "id": "deadline-radar",
+  "name": "Frist-Radar / Deadline Radar",
+  "version": "1.0.0",
+  "description": "Scannt Notizen nach DE-/ISO-Daten und zeigt Fristen in Überfällig/Heute/Diese Woche/Später; Status und „nächste Frist“. Scans notes for DE/ISO dates and lists deadlines in Overdue/Today/This week/Later; status bar and “next deadline”.",
+  "author": {
+    "name": "FaNotes Addon Production",
+    "url": "https://github.com/Nikoheld/FaNotes-Addons"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Nikoheld/FaNotes-Addons",
+  "api": 1,
+  "permissions": [
+    "commands",
+    "ui",
+    "notes:read",
+    "storage"
+  ],
+  "categories": [
+    "school",
+    "productivity"
+  ],
+  "keywords": [
+    "frist",
+    "deadline",
+    "fällig",
+    "due",
+    "radar",
+    "abgabe",
+    "schule",
+    "school",
+    "datum",
+    "date",
+    "überfällig",
+    "overdue"
+  ],
+  "icon": "icon.svg",
+  "main": "main.js"
+}
